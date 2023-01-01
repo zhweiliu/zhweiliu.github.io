@@ -79,13 +79,11 @@ params:
 
   socialIcons:
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/zheng-wei-liu-1ab77573/"
-    - name: "medium"
-      url: "https://zhengwei-liu.medium.com"
+      url: "//linkedin.zhengweiliu.com"
     - name: "github"
-      url: "https://github.com/zhweiliu"
+      url: "//git.zhengweiliu.com"
     - name: "other"
-      url: "https://leetcode.com/zhweiliu/"
+      url: "//leetcode.zhengweiliu.com"
 
   analytics:
     google:
