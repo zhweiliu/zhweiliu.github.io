@@ -79,11 +79,11 @@ params:
 
   socialIcons:
     - name: "linkedin"
-      url: "//linkedin.zhengweiliu.com"
+      url: "https://www.linkedin.com/feed/"
     - name: "github"
-      url: "//git.zhengweiliu.com"
+      url: "https://github.com/zhweiliu"
     - name: "other"
-      url: "//leetcode.zhengweiliu.com"
+      url: "https://leetcode.com/zhweiliu/"
 
   analytics:
     google:
