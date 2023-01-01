@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Analysis on ZhengWei Liu&#39;s blogs</title>
+    <link>https://blog.zhengweiliu.com/categories/analysis/</link>
+    <description>Recent content in Analysis on ZhengWei Liu&#39;s blogs</description>
+    <image>
+      <url>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 Dec 2021 14:13:51 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GCP Billing Analysis</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/gcp-billing-analytics/</link>
+      <pubDate>Mon, 27 Dec 2021 14:13:51 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/gcp-billing-analytics/</guid>
+      <description>最近利用 GA4 、 UA ，以及團隊的開發產品所蒐集到的資料，協助團隊進一步了解產品的成效與成本的利用情況。團隊的開發與產品環境皆建立在 Google Cloud Platform (GCP) 上，在分析 GCP billing report 的原始資料時，也引發了我 &amp;ldquo;對於同仁們對於如何利用開發環境&amp;rdquo; 感到好奇，寫下這篇文章作為紀錄。
+在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。
+Google Compute Engine (GCE) 在 GCP 上，無論我們開啟的是一般的 VM 機器，又或者是 Google Kubernetes Engine (GKE) 的 Node ， 本身所使用的資源單位都可以稱為 Instance ； 換句話說，可以簡單的將 Instance 理解為能夠提供絕大部分 VM 相關功能的資源，如 : vCPU、Memory、Disk、Netwroking 以及機器學習最需要的 GPU (TPU)等等，因此這一部份的資源用量也都會被歸因到 GCE 上。
+將 billing report data 依據 SKU 進行加總並命名為 「Cost」欄位，再對 「Cost」欄位做 kernel density estimation (kde) 後可以得到 「Cost」的群聚密度，同時也能獲取一組較為合理的上下邊界以利取得離群值，「Cost」的離群值對於 billing report 的意義則在於找出異常的費用；以 下將固定使用 kde 取離群值的作法，因此不再一一贅述。</description>
+    </item>
+    
+  </channel>
+</rss>

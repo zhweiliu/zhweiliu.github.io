@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ZhengWei Liu&#39;s blogs</title>
+    <link>https://blog.zhengweiliu.com/posts/</link>
+    <description>Recent content in Posts on ZhengWei Liu&#39;s blogs</description>
+    <image>
+      <url>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Dec 2022 15:05:27 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[leetcode][Python][Concurrency][Medium] 1226. The Dining Philosophers</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/the-dining-philosophers/</link>
+      <pubDate>Sat, 24 Dec 2022 15:05:27 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/concurrency/the-dining-philosophers/</guid>
+      <description>Description Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.
+Each philosopher must alternately think and eat. However, a philosopher can only eat spaghetti when they have both left and right forks. Each fork can be held by only one philosopher and so a philosopher can use the fork only if it is not being used by another philosopher.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Python][Concurrency][Medium] 1195. Fizz Buzz Multithreaded</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/fizz-buzz-multithreaded/</link>
+      <pubDate>Sat, 24 Dec 2022 05:25:42 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/concurrency/fizz-buzz-multithreaded/</guid>
+      <description>Description You have the four functions:
+printFizz that prints the word &amp;quot;fizz&amp;quot; to the console, printBuzz that prints the word &amp;quot;buzz&amp;quot; to the console, printFizzBuzz that prints the word &amp;quot;fizzbuzz&amp;quot; to the console, and printNumber that prints a given integer to the console. You are given an instance of the class FizzBuzz that has four functions: fizz, buzz, fizzbuzz and number. The same instance of FizzBuzz will be passed to four different threads:</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Python][Concurrency][Medium] 1115. Print FooBar Alternately</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/print-foobar-alternately/</link>
+      <pubDate>Sat, 24 Dec 2022 04:07:08 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/concurrency/print-foobar-alternately/</guid>
+      <description>Description Suppose you are given the following code:
+class FooBar { public void foo() { for (int i = 0; i &amp;lt; n; i++) { print(&amp;#34;foo&amp;#34;); } } public void bar() { for (int i = 0; i &amp;lt; n; i++) { print(&amp;#34;bar&amp;#34;); } } } The same instance of FooBar will be passed to two different threads:
+thread A will call foo(), while thread B will call bar(). Modify the given program to output &amp;quot;foobar&amp;quot; n times.</description>
+    </item>
+    
+    <item>
+      <title>Python3 - asyncio</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/python3-asyncio/</link>
+      <pubDate>Thu, 22 Dec 2022 14:12:05 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/python3-asyncio/</guid>
+      <description>asyncio is a library to write concurrent code using the async/await syntax.
+&amp;mdash;- from Python3.11.1 documentation
+This article is write down the note with my study of python asyncio package.
+How does asyncio work ? The main process, which is start run by IDE or command line, have a main thread to execute submit a coroutine to asyncio event loops by asyncio.create_task() or asyncio.run() , the keyword async will packet methods as coroutine.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Python][Concurrency][Medium] 1188. Design Bounded Blocking Queue</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/design-bounded-blocking-queue/</link>
+      <pubDate>Thu, 22 Dec 2022 07:45:19 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/concurrency/design-bounded-blocking-queue/</guid>
+      <description>Description Implement a thread-safe bounded blocking queue that has the following methods:
+BoundedBlockingQueue(int capacity) The constructor initializes the queue with a maximum capacity. void enqueue(int element) Adds an element to the front of the queue. If the queue is full, the calling thread is blocked until the queue is no longer full. int dequeue() Returns the element at the rear of the queue and removes it. If the queue is empty, the calling thread is blocked until the queue is no longer empty.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Python][Concurrency][Medium] 1242. Web Crawler Multithreaded</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/web-crawler-multithreaded/</link>
+      <pubDate>Thu, 22 Dec 2022 06:53:34 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/concurrency/web-crawler-multithreaded/</guid>
+      <description>Description Given a URL startUrl and an interface HtmlParser, implement a Multi-threaded web crawler to crawl all links that are under the same hostname as startUrl.
+Return all URLs obtained by your web crawler in any order.
+Your crawler should:
+Start from the page: startUrl Call HtmlParser.getUrls(url) to get all URLs from a webpage of a given URL. Do not crawl the same link twice. Explore only the links that are under the same hostname as startUrl.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Python][Concurrency][Easy] 1279. Traffic Light Controlled Intersection</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/traffic-light-controlled-intersection/</link>
+      <pubDate>Thu, 22 Dec 2022 03:40:12 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/concurrency/traffic-light-controlled-intersection/</guid>
+      <description>Description There is an intersection of two roads. First road is road A where cars travel from North to South in direction 1 and from South to North in direction 2. Second road is road B where cars travel from West to East in direction 3 and from East to West in direction 4.
+There is a traffic light located on each road before the intersection. A traffic light can either be green or red.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2173. Longest Winning Streak</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/longest-winning-streak/</link>
+      <pubDate>Sun, 18 Dec 2022 21:45:21 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/longest-winning-streak/</guid>
+      <description>Description Table: Matches
++-------------+------+ | Column Name | Type | +-------------+------+ | player_id | int | | match_day | date | | result | enum | +-------------+------+ (player_id, match_day) is the primary key for this table. Each row of this table contains the ID of a player, the day of the match they played, and the result of that match. The result column is an ENUM type of (&amp;#39;Win&amp;#39;, &amp;#39;Draw&amp;#39;, &amp;#39;Lose&amp;#39;).</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2474. Customers With Strictly Increasing Purchases</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/customers-with-strictly-increasing-purchases/</link>
+      <pubDate>Sun, 18 Dec 2022 21:30:30 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/customers-with-strictly-increasing-purchases/</guid>
+      <description>Description Table: Orders
++--------------+------+ | Column Name | Type | +--------------+------+ | order_id | int | | customer_id | int | | order_date | date | | price | int | +--------------+------+ order_id is the primary key for this table. Each row contains the id of an order, the id of customer that ordered it, the date of the order, and its price. Write an SQL query to report the IDs of the customers with the total purchases strictly increasing yearly.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2362. Generate the Invoice</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/generate-the-invoice/</link>
+      <pubDate>Sun, 18 Dec 2022 21:10:22 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/generate-the-invoice/</guid>
+      <description>Description Table: Products
++-------------+------+ | Column Name | Type | +-------------+------+ | product_id | int | | price | int | +-------------+------+ product_id is the primary key for this table. Each row in this table shows the ID of a product and the price of one unit. Table: Purchases
++-------------+------+ | Column Name | Type | +-------------+------+ | invoice_id | int | | product_id | int | | quantity | int | +-------------+------+ (invoice_id, product_id) is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2199. Finding the Topic of Each Post</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/finding-the-topic-of-each-post/</link>
+      <pubDate>Sun, 18 Dec 2022 20:54:39 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/finding-the-topic-of-each-post/</guid>
+      <description>Description Table: Keywords
++-------------+---------+ | Column Name | Type | +-------------+---------+ | topic_id | int | | word | varchar | +-------------+---------+ (topic_id, word) is the primary key for this table. Each row of this table contains the id of a topic and a word that is used to express this topic. There may be more than one word to express the same topic and one word may be used to express multiple topics.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2010. The Number of Seniors and Juniors to Join the Company II</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-seniors-and-juniors-to-join-the-company-ii/</link>
+      <pubDate>Sat, 17 Dec 2022 00:11:43 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-seniors-and-juniors-to-join-the-company-ii/</guid>
+      <description>Description Table: Candidates
++-------------+------+ | Column Name | Type | +-------------+------+ | employee_id | int | | experience | enum | | salary | int | +-------------+------+ employee_id is the primary key column for this table. experience is an enum with one of the values (&amp;#39;Senior&amp;#39;, &amp;#39;Junior&amp;#39;). Each row of this table indicates the id of a candidate, their monthly salary, and their experience. The salary of each candidate is guaranteed to be unique.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2118. Build the Equation</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/build-the-equation/</link>
+      <pubDate>Fri, 16 Dec 2022 23:57:37 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/build-the-equation/</guid>
+      <description>Description Table: Terms
++-------------+------+ | Column Name | Type | +-------------+------+ | power | int | | factor | int | +-------------+------+ power is the primary key column for this table. Each row of this table contains information about one term of the equation. power is an integer in the range [0, 100]. factor is an integer in the range [-100, 100] and cannot be zero. You have a very powerful program that can solve any equation of one variable in the world.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard]2253. Dynamic Unpivoting of a Table</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/dynamic-unpivoting-of-a-table/</link>
+      <pubDate>Fri, 16 Dec 2022 21:13:39 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/dynamic-unpivoting-of-a-table/</guid>
+      <description>Description Table: Products
++-------------+---------+ | Column Name | Type | +-------------+---------+ | product_id | int | | store_name1 | int | | store_name2 | int | | : | int | | : | int | | : | int | | store_namen | int | +-------------+---------+ product_id is the primary key for this table. Each row in this table indicates the product&amp;#39;s price in n different stores. If the product is not available in a store, the price will be null in that store&amp;#39;s column.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1919. Leetcodify Similar Friends</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/leetcodify-similar-friends/</link>
+      <pubDate>Fri, 16 Dec 2022 01:08:30 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/leetcodify-similar-friends/</guid>
+      <description>Description Table: Listens
++-------------+---------+ | Column Name | Type | +-------------+---------+ | user_id | int | | song_id | int | | day | date | +-------------+---------+ There is no primary key for this table. It may contain duplicates. Each row of this table indicates that the user user_id listened to the song song_id on the day day. Table: Friendship
++---------------+---------+ | Column Name | Type | +---------------+---------+ | user1_id | int | | user2_id | int | +---------------+---------+ (user1_id, user2_id) is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1917. Leetcodify Friends Recommendations</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/leetcodify-friends-recommendations/</link>
+      <pubDate>Thu, 15 Dec 2022 23:52:20 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/leetcodify-friends-recommendations/</guid>
+      <description>Description Table: Listens
++-------------+---------+ | Column Name | Type | +-------------+---------+ | user_id | int | | song_id | int | | day | date | +-------------+---------+ There is no primary key for this table. It may contain duplicates. Each row of this table indicates that the user user_id listened to the song song_id on the day day. Table: Friendship
++---------------+---------+ | Column Name | Type | +---------------+---------+ | user1_id | int | | user2_id | int | +---------------+---------+ (user1_id, user2_id) is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1892. Page Recommendations II</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/page-recommendations-ii/</link>
+      <pubDate>Thu, 15 Dec 2022 21:38:41 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/page-recommendations-ii/</guid>
+      <description>Description Table: Friendship
++---------------+---------+ | Column Name | Type | +---------------+---------+ | user1_id | int | | user2_id | int | +---------------+---------+ (user1_id, user2_id) is the primary key for this table. Each row of this table indicates that the users user1_id and user2_id are friends. Table: Likes
++-------------+---------+ | Column Name | Type | +-------------+---------+ | user_id | int | | page_id | int | +-------------+---------+ (user_id, page_id) is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1767. Find the Subtasks That Did Not Execute</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/find-the-subtasks-that-did-not-execute/</link>
+      <pubDate>Thu, 15 Dec 2022 17:53:09 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/find-the-subtasks-that-did-not-execute/</guid>
+      <description>Description Table: Tasks
++----------------+---------+ | Column Name | Type | +----------------+---------+ | task_id | int | | subtasks_count | int | +----------------+---------+ task_id is the primary key for this table. Each row in this table indicates that task_id was divided into subtasks_count subtasks labeled from 1 to subtasks_count. It is guaranteed that 2 &amp;lt;= subtasks_count &amp;lt;= 20. Table: Executed
++---------------+---------+ | Column Name | Type | +---------------+---------+ | task_id | int | | subtask_id | int | +---------------+---------+ (task_id, subtask_id) is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1651. Hopper Company Queries III</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/hopper-company-queries-iii/</link>
+      <pubDate>Thu, 15 Dec 2022 16:48:56 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/hopper-company-queries-iii/</guid>
+      <description>Description Table: Drivers
++-------------+---------+ | Column Name | Type | +-------------+---------+ | driver_id | int | | join_date | date | +-------------+---------+ driver_id is the primary key for this table. Each row of this table contains the driver&amp;#39;s ID and the date they joined the Hopper company. Table: Rides
++--------------+---------+ | Column Name | Type | +--------------+---------+ | ride_id | int | | user_id | int | | requested_at | date | +--------------+---------+ ride_id is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1645. Hopper Company Queries II</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/hopper-company-queries-ii/</link>
+      <pubDate>Thu, 15 Dec 2022 15:55:19 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/hopper-company-queries-ii/</guid>
+      <description>Description Table: Drivers
++-------------+---------+ | Column Name | Type | +-------------+---------+ | driver_id | int | | join_date | date | +-------------+---------+ driver_id is the primary key for this table. Each row of this table contains the driver&amp;#39;s ID and the date they joined the Hopper company. Table: Rides
++--------------+---------+ | Column Name | Type | +--------------+---------+ | ride_id | int | | user_id | int | | requested_at | date | +--------------+---------+ ride_id is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1635. Hopper Company Queries I</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/hopper-company-queries-i/</link>
+      <pubDate>Wed, 14 Dec 2022 08:28:10 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/hopper-company-queries-i/</guid>
+      <description>Description Table: Drivers
++-------------+---------+ | Column Name | Type | +-------------+---------+ | driver_id | int | | join_date | date | +-------------+---------+ driver_id is the primary key for this table. Each row of this table contains the driver&amp;#39;s ID and the date they joined the Hopper company. Table: Rides
++--------------+---------+ | Column Name | Type | +--------------+---------+ | ride_id | int | | user_id | int | | requested_at | date | +--------------+---------+ ride_id is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1412. Find the Quiet Students in All Exams</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/find-the-quiet-students-in-all-exams/</link>
+      <pubDate>Tue, 13 Dec 2022 01:08:00 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/find-the-quiet-students-in-all-exams/</guid>
+      <description>Description Table: Student
++---------------------+---------+ | Column Name | Type | +---------------------+---------+ | student_id | int | | student_name | varchar | +---------------------+---------+ student_id is the primary key for this table. student_name is the name of the student. Table: Exam
++---------------+---------+ | Column Name | Type | +---------------+---------+ | exam_id | int | | student_id | int | | score | int | +---------------+---------+ (exam_id, student_id) is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1369. Get the Second Most Recent Activity</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/get-the-second-most-recent-activity/</link>
+      <pubDate>Tue, 13 Dec 2022 00:10:04 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/get-the-second-most-recent-activity/</guid>
+      <description>Description Table: UserActivity
++---------------+---------+ | Column Name | Type | +---------------+---------+ | username | varchar | | activity | varchar | | startDate | Date | | endDate | Date | +---------------+---------+ There is no primary key for this table. It may contain duplicates. This table contains information about the activity performed by each user in a period of time. A person with username performed an activity from startDate to endDate.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1336. Number of Transactions per Visit</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/number-of-transactions-per-visit/</link>
+      <pubDate>Mon, 12 Dec 2022 16:38:05 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/number-of-transactions-per-visit/</guid>
+      <description>Description Table: Visits
++---------------+---------+ | Column Name | Type | +---------------+---------+ | user_id | int | | visit_date | date | +---------------+---------+ (user_id, visit_date) is the primary key for this table. Each row of this table indicates that user_id has visited the bank in visit_date. Table: Transactions
++------------------+---------+ | Column Name | Type | +------------------+---------+ | user_id | int | | transaction_date | date | | amount | int | +------------------+---------+ There is no primary key for this table, it may contain duplicates.</description>
+    </item>
+    
+    <item>
+      <title>整理面試常見問題 — Kubernetes</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/kubernetes/</link>
+      <pubDate>Thu, 08 Dec 2022 06:26:47 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/kubernetes/</guid>
+      <description>記錄在過去面試中常被問到的問題，以及依據自己的理解與查找到的資料，整理對應的回覆
+Q1. K8s 有哪些 components ?
+Master Node ← 管理 cluster、儲存不同 node 的資訊、規劃 containers 的去向，以及 monitor node 上的 containers
+kube-apiserver ← 管理整個 K8s 的 interface。使用者可以透過下達指令給 kube-apiserver ，以達到管理 K8s resources 的目的。 etcd cluster ← 儲存 K8s cluster 內，所有 node 、 containers 的資訊 kube-scheduler ← 依據 containers 的需求，包含但不限於: cpu、 menory、 affinity 、 taints and tolerations 、anti-* 等等，規劃將 containers 指派給符合需求的 node。 controller manager ← 管控 K8s cluster 內的 resources 。
+如 node controller 管理 nodes : 加入新 node 到 cluster、處理 node 變的不可用的狀況 Work Nodes ← 託管執行應用的 containers</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1225. Report Contiguous Dates</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/report-contiguous-dates/</link>
+      <pubDate>Wed, 07 Dec 2022 02:38:30 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/report-contiguous-dates/</guid>
+      <description>題目 Table: Failed
++--------------+---------+ | Column Name | Type | +--------------+---------+ | fail_date | date | +--------------+---------+ fail_date is the primary key for this table. This table contains the days of failed tasks. Table: Succeeded
++--------------+---------+ | Column Name | Type | +--------------+---------+ | success_date | date | +--------------+---------+ success_date is the primary key for this table. This table contains the days of succeeded tasks. A system is running one task every day.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 185. Department Top Three Salaries</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/department-top-three-salaries/</link>
+      <pubDate>Tue, 06 Dec 2022 17:21:44 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/department-top-three-salaries/</guid>
+      <description>題目
+Table: Employee
++--------------+---------+ | Column Name | Type | +--------------+---------+ | id | int | | name | varchar | | salary | int | | departmentId | int | +--------------+---------+ id is the primary key column for this table. departmentId is a foreign key of the ID from the Department table. Each row of this table indicates the ID, name, and salary of an employee. It also contains the ID of their department.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 262. Trips and Users</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/trips-and-users/</link>
+      <pubDate>Tue, 06 Dec 2022 17:08:27 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/trips-and-users/</guid>
+      <description>題目 Table: Trips
++-------------+----------+ | Column Name | Type | +-------------+----------+ | id | int | | client_id | int | | driver_id | int | | city_id | int | | status | enum | | request_at | date | +-------------+----------+ id is the primary key for this table. The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys to the users_id at the Users table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 569. Median Employee Salary</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/median-employee-salary/</link>
+      <pubDate>Tue, 06 Dec 2022 16:48:49 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/median-employee-salary/</guid>
+      <description>題目
+Table: Employee
++--------------+---------+ | Column Name | Type | +--------------+---------+ | id | int | | company | varchar | | salary | int | +--------------+---------+ id is the primary key column for this table. Each row of this table indicates the company and the salary of one employee. Write an SQL query to find the rows that contain the median salary of each company. While calculating the median, when you sort the salaries of the company, break the ties by id.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 571. Find Median Given Frequency of Numbers</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/find-median-given-frequency-of-numbers/</link>
+      <pubDate>Tue, 06 Dec 2022 16:31:02 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/find-median-given-frequency-of-numbers/</guid>
+      <description>題目 Table: Numbers
++-------------+------+ | Column Name | Type | +-------------+------+ | num | int | | frequency | int | +-------------+------+ num is the primary key for this table. Each row of this table shows the frequency of a number in the database. The median is the value separating the higher half from the lower half of a data sample.
+Write an SQL query to report the median of all the numbers in the database after decompressing the Numbers table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 579. Find Cumulative Salary of an Employee</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/find-cumulative-salary-of-an-employee/</link>
+      <pubDate>Tue, 06 Dec 2022 15:18:29 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/find-cumulative-salary-of-an-employee/</guid>
+      <description>題目 Table: Employee
++-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | month | int | | salary | int | +-------------+------+ (id, month) is the primary key for this table. Each row in the table indicates the salary of an employee in one month during the year 2020. Write an SQL query to calculate the cumulative salary summary for every employee in a single unified table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 601. Human Traffic of Stadium</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/human-traffic-of-stadium/</link>
+      <pubDate>Tue, 06 Dec 2022 14:55:01 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/human-traffic-of-stadium/</guid>
+      <description>題目 Table: Stadium
++---------------+---------+ | Column Name | Type | +---------------+---------+ | id | int | | visit_date | date | | people | int | +---------------+---------+ visit_date is the primary key for this table. Each row of this table contains the visit date and visit id to the stadium with the number of people during the visit. No two rows will have the same visit_date, and as the id increases, the dates increase as well.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 615. Average Salary: Departments VS Company</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/average-salary-departments-vs-company/</link>
+      <pubDate>Tue, 06 Dec 2022 14:33:17 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/average-salary-departments-vs-company/</guid>
+      <description>題目 Table: Salary
++-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | employee_id | int | | amount | int | | pay_date | date | +-------------+------+ id is the primary key column for this table. Each row of this table indicates the salary of an employee in one month. employee_id is a foreign key from the Employee table. Table: Employee
++---------------+------+ | Column Name | Type | +---------------+------+ | employee_id | int | | department_id | int | +---------------+------+ employee_id is the primary key column for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 618. Students Report By Geography</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/students-report-by-geography/</link>
+      <pubDate>Tue, 06 Dec 2022 14:08:14 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/students-report-by-geography/</guid>
+      <description>題目 Table: Student
++-------------+---------+ | Column Name | Type | +-------------+---------+ | name | varchar | | continent | varchar | +-------------+---------+ There is no primary key for this table. It may contain duplicate rows. Each row of this table indicates the name of a student and the continent they came from. A school has students from Asia, Europe, and America.
+Write an SQL query to pivot the continent column in the Student table so that each name is sorted alphabetically and displayed underneath its corresponding continent.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1097. Game Play Analysis V</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/game-play-analysis-v/</link>
+      <pubDate>Tue, 06 Dec 2022 13:48:34 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/game-play-analysis-v/</guid>
+      <description>題目 Table: Activity
++--------------+---------+ | Column Name | Type | +--------------+---------+ | player_id | int | | device_id | int | | event_date | date | | games_played | int | +--------------+---------+ (player_id, event_date) is the primary key of this table. This table shows the activity of players of some games. Each row is a record of a player who logged in and played a number of games (possibly 0) before logging out on someday using some device.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1127. User Purchase Platform</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/user-purchase-platform/</link>
+      <pubDate>Tue, 06 Dec 2022 13:21:25 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/user-purchase-platform/</guid>
+      <description>題目 Table: Spending
++-------------+---------+ | Column Name | Type | +-------------+---------+ | user_id | int | | spend_date | date | | platform | enum | | amount | int | +-------------+---------+ The table logs the history of the spending of users that make purchases from an online shopping website that has a desktop and a mobile application. (user_id, spend_date, platform) is the primary key of this table. The platform column is an ENUM type of (&amp;#39;desktop&amp;#39;, &amp;#39;mobile&amp;#39;).</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1159. Market Analysis II</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/market-analysis-ii/</link>
+      <pubDate>Tue, 06 Dec 2022 12:27:16 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/market-analysis-ii/</guid>
+      <description>題目 Table: Users
++----------------+---------+ | Column Name | Type | +----------------+---------+ | user_id | int | | join_date | date | | favorite_brand | varchar | +----------------+---------+ user_id is the primary key of this table. This table has the info of the users of an online shopping website where users can sell and buy items. Table: Orders
++---------------+---------+ | Column Name | Type | +---------------+---------+ | order_id | int | | order_date | date | | item_id | int | | buyer_id | int | | seller_id | int | +---------------+---------+ order_id is the primary key of this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1194. Tournament Winners</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/tournament-winners/</link>
+      <pubDate>Tue, 06 Dec 2022 09:28:54 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/tournament-winners/</guid>
+      <description>題目 Table: Players
++-------------+-------+ | Column Name | Type | +-------------+-------+ | player_id | int | | group_id | int | +-------------+-------+ player_id is the primary key of this table. Each row of this table indicates the group of each player. Table: Matches
++---------------+---------+ | Column Name | Type | +---------------+---------+ | match_id | int | | first_player | int | | second_player | int | | first_score | int | | second_score | int | +---------------+---------+ match_id is the primary key of this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1384. Total Sales Amount by Year</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/total-sales-amount-by-year/</link>
+      <pubDate>Tue, 06 Dec 2022 09:05:48 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/total-sales-amount-by-year/</guid>
+      <description>題目 Table: Product
++---------------+---------+ | Column Name | Type | +---------------+---------+ | product_id | int | | product_name | varchar | +---------------+---------+ product_id is the primary key for this table. product_name is the name of the product. Table: Sales
++---------------------+---------+ | Column Name | Type | +---------------------+---------+ | product_id | int | | period_start | date | | period_end | date | | average_daily_sales | int | +---------------------+---------+ product_id is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 1479. Sales by Day of the Week</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/sales-by-day-of-the-week/</link>
+      <pubDate>Tue, 06 Dec 2022 08:37:04 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/sales-by-day-of-the-week/</guid>
+      <description>題目 Table: Orders
++---------------+---------+ | Column Name | Type | +---------------+---------+ | order_id | int | | customer_id | int | | order_date | date | | item_id | varchar | | quantity | int | +---------------+---------+ (ordered_id, item_id) is the primary key for this table. This table contains information on the orders placed. order_date is the date item_id was ordered by the customer with id customer_id. Table: Items
++---------------------+---------+ | Column Name | Type | +---------------------+---------+ | item_id | varchar | | item_name | varchar | | item_category | varchar | +---------------------+---------+ item_id is the primary key for this table.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard]1972. First and Last Call On the Same Day</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/first-and-last-call-on-the-same-day/</link>
+      <pubDate>Tue, 06 Dec 2022 05:39:34 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/first-and-last-call-on-the-same-day/</guid>
+      <description>題目 Table: Calls
++--------------+----------+ | Column Name | Type | +--------------+----------+ | caller_id | int | | recipient_id | int | | call_time | datetime | +--------------+----------+ (caller_id, recipient_id, call_time) is the primary key for this table. Each row contains information about the time of a phone call between caller_id and recipient_id. Write an SQL query to report the IDs of the users whose first and last calls on any day were with the same person.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2004. The Number of Seniors and Juniors to Join the Company</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-seniors-and-juniors-to-join-the-company/</link>
+      <pubDate>Mon, 05 Dec 2022 09:07:42 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-seniors-and-juniors-to-join-the-company/</guid>
+      <description>題目 Table: Candidates
++-------------+------+ | Column Name | Type | +-------------+------+ | employee_id | int | | experience | enum | | salary | int | +-------------+------+ employee_id is the primary key column for this table. experience is an enum with one of the values (&amp;#39;Senior&amp;#39;, &amp;#39;Junior&amp;#39;). Each row of this table indicates the id of a candidate, their monthly salary, and their experience. A company wants to hire new employees.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2153. The Number of Passengers in Each Bus II</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-passengers-in-each-bus-ii/</link>
+      <pubDate>Mon, 05 Dec 2022 08:34:19 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-passengers-in-each-bus-ii/</guid>
+      <description>題目 Table: Buses
++--------------+------+ | Column Name | Type | +--------------+------+ | bus_id | int | | arrival_time | int | | capacity | int | +--------------+------+ bus_id is the primary key column for this table. Each row of this table contains information about the arrival time of a bus at the LeetCode station and its capacity (the number of empty seats it has). No two buses will arrive at the same time and all bus capacities will be positive integers.</description>
+    </item>
+    
+    <item>
+      <title>[leetcode][Database][Hard] 2252. Dynamic Pivoting of a Table</title>
+      <link>https://blog.zhengweiliu.com/posts/leetcode/database/dynamic-pivoting-of-a-table/</link>
+      <pubDate>Mon, 05 Dec 2022 08:12:40 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/leetcode/database/dynamic-pivoting-of-a-table/</guid>
+      <description>題目 Table: Products
++-------------+---------+ | Column Name | Type | +-------------+---------+ | product_id | int | | store | varchar | | price | int | +-------------+---------+ (product_id, store) is the primary key for this table. Each row of this table indicates the price of product_id in store. There will be at most 30 different stores in the table. price is the price of the product at this store. Important note: This problem targets those who have a good experience with SQL.</description>
+    </item>
+    
+    <item>
+      <title>Customer Data Platform 是如何煉成的 (二)</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/customer-data-platform/</link>
+      <pubDate>Mon, 28 Mar 2022 13:41:44 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/customer-data-platform/</guid>
+      <description>在 Customer Data Platform 是如何煉成的 中提到，Data Platform 透過洞察與發現 ( Insights Discovery )、貢獻與進化 ( Contribute Evolution) 以及異常偵測 ( Anomaly Detection) 組成一個周而復始的正向循環，讓資料提供具有貢獻的結果。
+最近讀到 How to Optimize KPIs by Distilling Data With Machine Learning 這篇文章，原文中提及的例子: 利用 User Behavior 進行機器學習，最後產出一個具備評分的可交付名單，提供給營銷人員進行後續操作；詳細的部分請再點閱原文，以下我想分享閱讀後的心得。
+費米估算 依據維基百科的描述
+一個經典的費米問題的例子是費米提出的「在芝加哥有多少鋼琴調琴師」
+比如說，我們會採用以下的假設
+1. 大約有9,000,000 人生活在芝加哥。
+2. 在芝加哥平均每個家庭有2個人。
+3. 大約在20個家庭中有1個家庭需要定期鋼琴調音。
+4. 定期調琴的鋼琴每年需要調整一次。
+5. 每個調琴師大約需要2小時調琴，包括路上時間。
+6. 每個調琴師每天工作8小時，一周5天，一年50周。
+最後經過計算，大略的估算出 225 個調琴師在芝加哥；在這個問題的時空背景下，事實上， 一共有大約 290 名調琴師在芝加哥。
+量化問題 在調琴師的問題中，在沒有任一組織或權威可以提供完整調琴師清單的情況下，從圍繞調琴師的因素進行分析與展開，對相關的條件訂下一個基準數據，再一步步逼近命題，最終估算出大略的人數；
+而原文中「如何有效利用有限的營銷預算」，換個方式來描述問題則變成「將營銷預算投入給哪些消費者，可以取得最大成效」 : 這使得問題本身可以圍繞著「消費者」這個因素進行分析與展開，或許是分析使用者消費行為、或許是透過 RFM 來進行初步的分析，更可以導入消費者會員等級權益等額外資料進行輔助。
+顯而易見，討論出一個有共識、覺得可行的方式將問題進行轉化，這就屬於洞察(Insights)；而被提出的問題本身，則是被發現的異常(Anomaly)。原文最後提出「具有評分等級的使用者清單」則是貢獻(Contribute)。
+有趣的是，當營銷人員依據清單進行預算投放後，便又能獲取新一輪的結果，這個結果除了可供驗證，同時也具備發現新異常的可能性。
+背後的核心 同樣以調琴師的問題為例</description>
+    </item>
+    
+    <item>
+      <title>Migrate Google Cloud Functions to Kubernetes</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-kubernetes/</link>
+      <pubDate>Sun, 23 Jan 2022 05:59:52 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-kubernetes/</guid>
+      <description>在 GCP Billing Analytics 中提到過關於 Cloud Functions 的計費超乎預期，進一步分析開發的使用習慣後，也找出部分功能應該將其從 Cloud Functions 搬遷至基於 GCE instances 的服務上，以達到節費的期望。
+在原先的設計中，我們將 Cloud Functions 作為 ETL data flow 的其中一個環節，透過 Pub/Sub trigger Cloud Functions 的方式使其運作；考慮到 Pub/Sub subscriber push/pull 的 Ack 等待時間有著最長 600 秒的限制，我將這部分需要搬遷的 Cloud Functions 大致分為兩種需求
+靜態資料源: 在提取資料時，可預期資料是存在且可被存取的 動態資料源: 可能發生資料不存在，或者是無法存取的情況 本篇文章是記錄
+用 Kubernetes Pod 替代 Cloud Function 環節以處理動態資料源的方法 Google Kubernetes Engine: Ingress &amp;amp; Service ASGI 與FastAPI Dockerize &amp;amp; Deployment 靜態資料源的處理方案 &amp;gt; Migrate Google Cloud Functions to Airflow
+Design Change Figure 1 是一個常見的使用案例，我將 Cloud Function 的執行邏輯簡略為 4 個部份來進行描述，即: 等待 Request (Accept Request) 、 處理邏輯 (Process)、產出結果 (Result) ，以及回復 Ack (Response HTTP Status Code)</description>
+    </item>
+    
+    <item>
+      <title>Migrate Google Cloud Functions to Airflow</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-airflow/</link>
+      <pubDate>Sat, 22 Jan 2022 05:10:20 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-airflow/</guid>
+      <description>在 GCP Billing Analytics 中提到過關於 Cloud Functions 的計費超乎預期，進一步分析開發的使用習慣後，也找出部分功能應該將其從 Cloud Functions 搬遷至基於 GCE instances 的服務上，以達到節費的期望。
+在原先的設計中，我們將 Cloud Functions 作為 ETL data flow 的其中一個環節，透過 Pub/Sub trigger Cloud Functions 的方式使其運作；考慮到 Pub/Sub subscriber push/pull 的 Ack 等待時間有著最長 600 秒的限制，我將這部分需要搬遷的 Cloud Functions 大致分為兩種需求
+靜態資料源: 在提取資料時，可預期資料是存在且可被存取的 動態資料源: 可能發生資料不存在，或者是無法存取的情況 本篇文章是記錄
+用 Airflow DAG (Directed Acyclic Graph) 替代 Cloud Function 環節以處理靜態資料源的方法 Airflow GCP Operators 使用 在 DAG 中平行處理(parallel processing)的方式 動態資料源的處理方案 &amp;gt; Migrate Google Cloud Functions to Kubernetes
+Design Change Figure 1 是一個經典的使用案例，透過 GCS notification 的機制，當 bucket 中有檔案 (Object) 異動時，將異動的資訊 publish 到指定的 Pub/Sub Topic。 部署 Cloud Function 可以指定--trigger-topic 接受 Topic 的觸發，使得 Cloud Function 可以接收異動檔案的資訊，如: bucket name、object path ， 進行轉置 (Transform) 處理後將結果存放到 Big Query 。</description>
+    </item>
+    
+    <item>
+      <title>GCP Billing Analysis</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/gcp-billing-analytics/</link>
+      <pubDate>Mon, 27 Dec 2021 14:13:51 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/gcp-billing-analytics/</guid>
+      <description>最近利用 GA4 、 UA ，以及團隊的開發產品所蒐集到的資料，協助團隊進一步了解產品的成效與成本的利用情況。團隊的開發與產品環境皆建立在 Google Cloud Platform (GCP) 上，在分析 GCP billing report 的原始資料時，也引發了我 &amp;ldquo;對於同仁們對於如何利用開發環境&amp;rdquo; 感到好奇，寫下這篇文章作為紀錄。
+在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。
+Google Compute Engine (GCE) 在 GCP 上，無論我們開啟的是一般的 VM 機器，又或者是 Google Kubernetes Engine (GKE) 的 Node ， 本身所使用的資源單位都可以稱為 Instance ； 換句話說，可以簡單的將 Instance 理解為能夠提供絕大部分 VM 相關功能的資源，如 : vCPU、Memory、Disk、Netwroking 以及機器學習最需要的 GPU (TPU)等等，因此這一部份的資源用量也都會被歸因到 GCE 上。
+將 billing report data 依據 SKU 進行加總並命名為 「Cost」欄位，再對 「Cost」欄位做 kernel density estimation (kde) 後可以得到 「Cost」的群聚密度，同時也能獲取一組較為合理的上下邊界以利取得離群值，「Cost」的離群值對於 billing report 的意義則在於找出異常的費用；以 下將固定使用 kde 取離群值的作法，因此不再一一贅述。</description>
+    </item>
+    
+    <item>
+      <title>ETL | ELT 與 IoT Device Alive Check</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/etl-elt-iot-device-alive-check/</link>
+      <pubDate>Mon, 27 Sep 2021 10:47:11 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/etl-elt-iot-device-alive-check/</guid>
+      <description>既上次發布 Google Certified 與 Cloud 後，和 Ryan 討論人流偵測系統中的資料流，以及感測設備是否存活的議題； Ryan 的工作背景是 Compute Vision 相關，相對於 ETL 資料處理流程中屬於提供 E ( extract ) 端服務的角色，也特別重視 extract 的功能是否都能如期發揮作用。
+ETL | ELT 是流程還是系統 ?
+ETL ( Extract-Transform-Load ) 與 ELT ( Extract-Load-Transform ) 是資料處理中常見的處理流程代名詞；個人認為 ETL ≠ ELT ， L | T 的先後順序除了影響處理流程的腳本之外，其實也需要搭配 scenario 來一起討論，同時也可能需要依賴應用系統的受眾群體特徵，搭建出對應的處理框架，以期在合理的效能下達成提供資料的目的。
+在上述過程中可以看出，ETL | ELT 會依據實際狀況而對於框架設計有所改變， ETL | ELT 應屬於流程，在實作完成後才會變成具體的系統；而流程則可以被獨立提出進行討論。
+Extract 是否有在好好運作 ? 資料遺失是否可以避免 ?
+在 Ryan 提出的議題中，extract 的服務由具體的感應偵測設備產生 log 資料，並不斷的往後段進行傳送，以便進行分析或儲存；當 extract device 離線或者是發生故障，若沒有在第一時間進行確認與通知相關人員，往往要等到進行資料統計時才會發現資料遺失。
+為此，主動進行 Check Sensor Is Alive 的機制看起來不可避免，或是有其他的途徑可以達成相同的目的呢 ?</description>
+    </item>
+    
+    <item>
+      <title>Google Certified 與 Cloud</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/google-certified-cloud/</link>
+      <pubDate>Wed, 22 Sep 2021 14:14:13 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/google-certified-cloud/</guid>
+      <description>轉換到雲端領域工作也過了大半年，這段不算長且還在進行中旅程中也獲取了三張 Google Cloud Platform ( GCP ) 的 Certified : Associate Cloud Engineer | Professional Cloud Architect | Professional Cloud Network Engineer
+每每在考取認證的當下，也試著將這份喜悅分享給社群好友，也因此成為了開啟與好友交流雲端使用經驗的契機。
+最近，和 Enzo 聊到在工作領域深耕的話題。Enzo 對資料科學的領域具有高度熱忱，也希望朝著 Senior Data Engineer 的角色發展；目前對於 Senior Data Engineer 的專業需求中，經常看到需要具備雲端平台的服務或工具等使用經驗；Enzo 除了使用中的 Google Compute Engine ( GCE ) Virtual Machine 服務之外，也希望進一步了解自學 GCP 的必要性與可能性，同時透過考取認證的方式確認自己學習的成果，以及希望將其作為對外證明的一舉兩得好方式。
+和 Enzo 交流討論的過程中，我也從中發現一些值得紀錄的觀點。無論未來的我對這個觀點是抱持著贊同的態度，也或者大相徑庭，都是一種值得回味的思考。
+以下透過幾個問題的交流過程，記錄我對使用雲端平台以及上雲這件事情的想法
+拿認證對工作實戰的幫助以及對職涯的幫助，還是說有使用經驗其實不一定要拿認證，以實用性來說是不是熟悉其中幾項服務就足夠了 ?
+當初考慮轉換工作領域時，我也曾思考過這個問題；再陸續考取認證的過程中，也找到了一個自己認為合適的答案。
+_考取認證僅證明你確實理解官方在這張認證領域上所提出的 Best Practice，並且具備將其轉換應用到實務上的基礎能力_
+換句話說 : 認證是一個敲門磚。
+對外來說確實也是一個不錯的證明，面對非相同專業領域的人而言，這也代表了官方的背書。
+推薦的學習路徑和學習資源 ：會建議先去拿助理認證，還是可以直衝專家認證 ?
+因為長期使用 GCE 的經驗，促使 Enzo 希望從 GCP 的認證作為起步。</description>
+    </item>
+    
+  </channel>
+</rss>
