@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Concurrency on ZhengWei Liu&#39;s blogs</title>
+    <link>https://blog.zhengweiliu.com/categories/concurrency/</link>
+    <description>Recent content in Concurrency on ZhengWei Liu&#39;s blogs</description>
+    <image>
+      <url>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Dec 2022 14:12:05 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python3 - asyncio</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/python3-asyncio/</link>
+      <pubDate>Thu, 22 Dec 2022 14:12:05 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/python3-asyncio/</guid>
+      <description>asyncio is a library to write concurrent code using the async/await syntax.
+&amp;mdash;- from Python3.11.1 documentation
+This article is write down the note with my study of python asyncio package.
+How does asyncio work ? The main process, which is start run by IDE or command line, have a main thread to execute submit a coroutine to asyncio event loops by asyncio.create_task() or asyncio.run() , the keyword async will packet methods as coroutine.</description>
+    </item>
+    
+  </channel>
+</rss>

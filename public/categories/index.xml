@@ -8,6 +8,97 @@
       <url>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.zhengweiliu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Dec 2022 15:05:27 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcode</title>
+      <link>https://blog.zhengweiliu.com/categories/leetcode/</link>
+      <pubDate>Sat, 24 Dec 2022 15:05:27 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concurrency</title>
+      <link>https://blog.zhengweiliu.com/categories/concurrency/</link>
+      <pubDate>Thu, 22 Dec 2022 14:12:05 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python3</title>
+      <link>https://blog.zhengweiliu.com/categories/python3/</link>
+      <pubDate>Thu, 22 Dec 2022 14:12:05 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/python3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interview</title>
+      <link>https://blog.zhengweiliu.com/categories/interview/</link>
+      <pubDate>Thu, 08 Dec 2022 06:26:47 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://blog.zhengweiliu.com/categories/kubernetes/</link>
+      <pubDate>Thu, 08 Dec 2022 06:26:47 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customer Data Platform</title>
+      <link>https://blog.zhengweiliu.com/categories/customer-data-platform/</link>
+      <pubDate>Mon, 28 Mar 2022 13:41:44 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/customer-data-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Engineering</title>
+      <link>https://blog.zhengweiliu.com/categories/data-engineering/</link>
+      <pubDate>Sun, 23 Jan 2022 05:59:52 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Cloud Platform</title>
+      <link>https://blog.zhengweiliu.com/categories/google-cloud-platform/</link>
+      <pubDate>Sun, 23 Jan 2022 05:59:52 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/google-cloud-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>https://blog.zhengweiliu.com/categories/analysis/</link>
+      <pubDate>Mon, 27 Dec 2021 14:13:51 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certified</title>
+      <link>https://blog.zhengweiliu.com/categories/certified/</link>
+      <pubDate>Wed, 22 Sep 2021 14:14:13 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/certified/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Engineering on ZhengWei Liu&#39;s blogs</title>
+    <link>https://blog.zhengweiliu.com/categories/data-engineering/</link>
+    <description>Recent content in Data Engineering on ZhengWei Liu&#39;s blogs</description>
+    <image>
+      <url>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 23 Jan 2022 05:59:52 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate Google Cloud Functions to Kubernetes</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-kubernetes/</link>
+      <pubDate>Sun, 23 Jan 2022 05:59:52 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-kubernetes/</guid>
+      <description>在 GCP Billing Analytics 中提到過關於 Cloud Functions 的計費超乎預期，進一步分析開發的使用習慣後，也找出部分功能應該將其從 Cloud Functions 搬遷至基於 GCE instances 的服務上，以達到節費的期望。
+在原先的設計中，我們將 Cloud Functions 作為 ETL data flow 的其中一個環節，透過 Pub/Sub trigger Cloud Functions 的方式使其運作；考慮到 Pub/Sub subscriber push/pull 的 Ack 等待時間有著最長 600 秒的限制，我將這部分需要搬遷的 Cloud Functions 大致分為兩種需求
+靜態資料源: 在提取資料時，可預期資料是存在且可被存取的 動態資料源: 可能發生資料不存在，或者是無法存取的情況 本篇文章是記錄
+用 Kubernetes Pod 替代 Cloud Function 環節以處理動態資料源的方法 Google Kubernetes Engine: Ingress &amp;amp; Service ASGI 與FastAPI Dockerize &amp;amp; Deployment 靜態資料源的處理方案 &amp;gt; Migrate Google Cloud Functions to Airflow
+Design Change Figure 1 是一個常見的使用案例，我將 Cloud Function 的執行邏輯簡略為 4 個部份來進行描述，即: 等待 Request (Accept Request) 、 處理邏輯 (Process)、產出結果 (Result) ，以及回復 Ack (Response HTTP Status Code)</description>
+    </item>
+    
+    <item>
+      <title>Migrate Google Cloud Functions to Airflow</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-airflow/</link>
+      <pubDate>Sat, 22 Jan 2022 05:10:20 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-airflow/</guid>
+      <description>在 GCP Billing Analytics 中提到過關於 Cloud Functions 的計費超乎預期，進一步分析開發的使用習慣後，也找出部分功能應該將其從 Cloud Functions 搬遷至基於 GCE instances 的服務上，以達到節費的期望。
+在原先的設計中，我們將 Cloud Functions 作為 ETL data flow 的其中一個環節，透過 Pub/Sub trigger Cloud Functions 的方式使其運作；考慮到 Pub/Sub subscriber push/pull 的 Ack 等待時間有著最長 600 秒的限制，我將這部分需要搬遷的 Cloud Functions 大致分為兩種需求
+靜態資料源: 在提取資料時，可預期資料是存在且可被存取的 動態資料源: 可能發生資料不存在，或者是無法存取的情況 本篇文章是記錄
+用 Airflow DAG (Directed Acyclic Graph) 替代 Cloud Function 環節以處理靜態資料源的方法 Airflow GCP Operators 使用 在 DAG 中平行處理(parallel processing)的方式 動態資料源的處理方案 &amp;gt; Migrate Google Cloud Functions to Kubernetes
+Design Change Figure 1 是一個經典的使用案例，透過 GCS notification 的機制，當 bucket 中有檔案 (Object) 異動時，將異動的資訊 publish 到指定的 Pub/Sub Topic。 部署 Cloud Function 可以指定--trigger-topic 接受 Topic 的觸發，使得 Cloud Function 可以接收異動檔案的資訊，如: bucket name、object path ， 進行轉置 (Transform) 處理後將結果存放到 Big Query 。</description>
+    </item>
+    
+    <item>
+      <title>ETL | ELT 與 IoT Device Alive Check</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/etl-elt-iot-device-alive-check/</link>
+      <pubDate>Mon, 27 Sep 2021 10:47:11 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/etl-elt-iot-device-alive-check/</guid>
+      <description>既上次發布 Google Certified 與 Cloud 後，和 Ryan 討論人流偵測系統中的資料流，以及感測設備是否存活的議題； Ryan 的工作背景是 Compute Vision 相關，相對於 ETL 資料處理流程中屬於提供 E ( extract ) 端服務的角色，也特別重視 extract 的功能是否都能如期發揮作用。
+ETL | ELT 是流程還是系統 ?
+ETL ( Extract-Transform-Load ) 與 ELT ( Extract-Load-Transform ) 是資料處理中常見的處理流程代名詞；個人認為 ETL ≠ ELT ， L | T 的先後順序除了影響處理流程的腳本之外，其實也需要搭配 scenario 來一起討論，同時也可能需要依賴應用系統的受眾群體特徵，搭建出對應的處理框架，以期在合理的效能下達成提供資料的目的。
+在上述過程中可以看出，ETL | ELT 會依據實際狀況而對於框架設計有所改變， ETL | ELT 應屬於流程，在實作完成後才會變成具體的系統；而流程則可以被獨立提出進行討論。
+Extract 是否有在好好運作 ? 資料遺失是否可以避免 ?
+在 Ryan 提出的議題中，extract 的服務由具體的感應偵測設備產生 log 資料，並不斷的往後段進行傳送，以便進行分析或儲存；當 extract device 離線或者是發生故障，若沒有在第一時間進行確認與通知相關人員，往往要等到進行資料統計時才會發現資料遺失。
+為此，主動進行 Check Sensor Is Alive 的機制看起來不可避免，或是有其他的途徑可以達成相同的目的呢 ?</description>
+    </item>
+    
+  </channel>
+</rss>

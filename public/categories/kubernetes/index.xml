@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kubernetes on ZhengWei Liu&#39;s blogs</title>
+    <link>https://blog.zhengweiliu.com/categories/kubernetes/</link>
+    <description>Recent content in Kubernetes on ZhengWei Liu&#39;s blogs</description>
+    <image>
+      <url>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 08 Dec 2022 06:26:47 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>整理面試常見問題 — Kubernetes</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/kubernetes/</link>
+      <pubDate>Thu, 08 Dec 2022 06:26:47 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/kubernetes/</guid>
+      <description>記錄在過去面試中常被問到的問題，以及依據自己的理解與查找到的資料，整理對應的回覆
+Q1. K8s 有哪些 components ?
+Master Node ← 管理 cluster、儲存不同 node 的資訊、規劃 containers 的去向，以及 monitor node 上的 containers
+kube-apiserver ← 管理整個 K8s 的 interface。使用者可以透過下達指令給 kube-apiserver ，以達到管理 K8s resources 的目的。 etcd cluster ← 儲存 K8s cluster 內，所有 node 、 containers 的資訊 kube-scheduler ← 依據 containers 的需求，包含但不限於: cpu、 menory、 affinity 、 taints and tolerations 、anti-* 等等，規劃將 containers 指派給符合需求的 node。 controller manager ← 管控 K8s cluster 內的 resources 。
+如 node controller 管理 nodes : 加入新 node 到 cluster、處理 node 變的不可用的狀況 Work Nodes ← 託管執行應用的 containers</description>
+    </item>
+    
+  </channel>
+</rss>
