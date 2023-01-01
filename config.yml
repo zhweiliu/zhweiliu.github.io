@@ -83,6 +83,8 @@ params:
       url: "https://zhengwei-liu.medium.com"
     - name: "github"
       url: "https://github.com/zhweiliu"
+    - name: "other"
+      url: "https://leetcode.com/zhweiliu/"
 
   analytics:
     google:
@@ -98,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/zhweiliu/zhweiliu.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -133,3 +135,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
