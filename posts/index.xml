@@ -48,9 +48,11 @@ thread A will call foo(), while thread B will call bar(). Modify the given progr
       
       <guid>https://blog.zhengweiliu.com/posts/normal/python3-asyncio/</guid>
       <description>asyncio is a library to write concurrent code using the async/await syntax.
-&amp;mdash;- from Python3.11.1 documentation
-This article is write down the note with my study of python asyncio package.
-How does asyncio work ? The main process, which is start run by IDE or command line, have a main thread to execute submit a coroutine to asyncio event loops by asyncio.create_task() or asyncio.run() , the keyword async will packet methods as coroutine.</description>
+How does &lt;em&gt;asyncio&lt;/em&gt; work ?
+async &amp;amp; await,&lt;br&gt;
+Create Task &amp;amp; Submit Coroutine,
+Timeout &amp;amp; Cancel,
+Gather multi task&amp;hellip;</description>
     </item>
     
     <item>
@@ -273,9 +275,8 @@ There is a traffic light located on each road before the intersection. A traffic
       <guid>https://blog.zhengweiliu.com/posts/normal/kubernetes/</guid>
       <description>記錄在過去面試中常被問到的問題，以及依據自己的理解與查找到的資料，整理對應的回覆
 Q1. K8s 有哪些 components ?
-Master Node ← 管理 cluster、儲存不同 node 的資訊、規劃 containers 的去向，以及 monitor node 上的 containers
-kube-apiserver ← 管理整個 K8s 的 interface。使用者可以透過下達指令給 kube-apiserver ，以達到管理 K8s resources 的目的。 etcd cluster ← 儲存 K8s cluster 內，所有 node 、 containers 的資訊 kube-scheduler ← 依據 containers 的需求，包含但不限於: cpu、 menory、 affinity 、 taints and tolerations 、anti-* 等等，規劃將 containers 指派給符合需求的 node。 controller manager ← 管控 K8s cluster 內的 resources 。
-如 node controller 管理 nodes : 加入新 node 到 cluster、處理 node 變的不可用的狀況 Work Nodes ← 託管執行應用的 containers</description>
+Q2. 部署一個應用到 K8s 時，K8s 會如何運作整個流程 ?
+Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)的規劃</description>
     </item>
     
     <item>
@@ -479,28 +480,38 @@ Write an SQL query to pivot the continent column in the Student table so that ea
     </item>
     
     <item>
+      <title>Customer Data Platform 是如何煉成的 (三)</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/customer-data-platform-3/</link>
+      <pubDate>Mon, 04 Apr 2022 16:27:27 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/customer-data-platform-3/</guid>
+      <description>&lt;p&gt;在最後給出的結論如下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在前 6% 的首次訪問者中，超過 6% 的人會在後續訪問時產生購買行為&lt;/li&gt;
+&lt;li&gt;整體而言，只有 0.7% 的首次訪問者，會在後續訪問時產生購買行為&lt;/li&gt;
+&lt;li&gt;瞄準前 6% 的第一次訪問者名單，會使營銷投資回報率提高 9 倍
+因此，若是能夠在得到模型預測的結果後，依據營銷策略進行即時的投放處理，包含但不限於: EDM廣告、Coupon折價券或是限定綑綁折扣等等，建構起一個自動化營銷的方法；這也是一種 &lt;strong&gt;Data Driven&lt;/strong&gt; 的方法。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Customer Data Platform 是如何煉成的 (二)</title>
-      <link>https://blog.zhengweiliu.com/posts/normal/customer-data-platform/</link>
+      <link>https://blog.zhengweiliu.com/posts/normal/customer-data-platform-2/</link>
       <pubDate>Mon, 28 Mar 2022 13:41:44 +0000</pubDate>
       
-      <guid>https://blog.zhengweiliu.com/posts/normal/customer-data-platform/</guid>
-      <description>在 Customer Data Platform 是如何煉成的 中提到，Data Platform 透過洞察與發現 ( Insights Discovery )、貢獻與進化 ( Contribute Evolution) 以及異常偵測 ( Anomaly Detection) 組成一個周而復始的正向循環，讓資料提供具有貢獻的結果。
-最近讀到 How to Optimize KPIs by Distilling Data With Machine Learning 這篇文章，原文中提及的例子: 利用 User Behavior 進行機器學習，最後產出一個具備評分的可交付名單，提供給營銷人員進行後續操作；詳細的部分請再點閱原文，以下我想分享閱讀後的心得。
-費米估算 依據維基百科的描述
-一個經典的費米問題的例子是費米提出的「在芝加哥有多少鋼琴調琴師」
-比如說，我們會採用以下的假設
-1. 大約有9,000,000 人生活在芝加哥。
-2. 在芝加哥平均每個家庭有2個人。
-3. 大約在20個家庭中有1個家庭需要定期鋼琴調音。
-4. 定期調琴的鋼琴每年需要調整一次。
-5. 每個調琴師大約需要2小時調琴，包括路上時間。
-6. 每個調琴師每天工作8小時，一周5天，一年50周。
-最後經過計算，大略的估算出 225 個調琴師在芝加哥；在這個問題的時空背景下，事實上， 一共有大約 290 名調琴師在芝加哥。
-量化問題 在調琴師的問題中，在沒有任一組織或權威可以提供完整調琴師清單的情況下，從圍繞調琴師的因素進行分析與展開，對相關的條件訂下一個基準數據，再一步步逼近命題，最終估算出大略的人數；
-而原文中「如何有效利用有限的營銷預算」，換個方式來描述問題則變成「將營銷預算投入給哪些消費者，可以取得最大成效」 : 這使得問題本身可以圍繞著「消費者」這個因素進行分析與展開，或許是分析使用者消費行為、或許是透過 RFM 來進行初步的分析，更可以導入消費者會員等級權益等額外資料進行輔助。
-顯而易見，討論出一個有共識、覺得可行的方式將問題進行轉化，這就屬於洞察(Insights)；而被提出的問題本身，則是被發現的異常(Anomaly)。原文最後提出「具有評分等級的使用者清單」則是貢獻(Contribute)。
-有趣的是，當營銷人員依據清單進行預算投放後，便又能獲取新一輪的結果，這個結果除了可供驗證，同時也具備發現新異常的可能性。
-背後的核心 同樣以調琴師的問題為例</description>
+      <guid>https://blog.zhengweiliu.com/posts/normal/customer-data-platform-2/</guid>
+      <description>顯而易見，討論出一個有共識、覺得可行的方式將問題進行轉化，這就屬於洞察(Insights)；而被提出的問題本身，則是被發現的異常(Anomaly)。原文最後提出「具有評分等級的使用者清單」則是貢獻(Contribute)。
+有趣的是，當營銷人員依據清單進行預算投放後，便又能獲取新一輪的結果，這個結果除了可供驗證，同時也具備發現新異常的可能性。</description>
+    </item>
+    
+    <item>
+      <title>Customer Data Platform 是如何煉成的</title>
+      <link>https://blog.zhengweiliu.com/posts/normal/customer-data-platform-1/</link>
+      <pubDate>Tue, 22 Mar 2022 13:35:08 +0000</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/normal/customer-data-platform-1/</guid>
+      <description>提到 CDP ( Customer Data Platform ) ，可能就會想到利用顧客相關資料，為顧客分群分類貼標籤，透過網站、經營社群或 APP 進行精準投放廣告，達到再行銷的成果；甚至是透過 Machine Learning，或結合 CRM 、 Google Analytics 等資料，達成預估市場規模、優化推薦商品等目的。</description>
     </item>
     
     <item>
@@ -509,11 +520,14 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Sun, 23 Jan 2022 05:59:52 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-kubernetes/</guid>
-      <description>在 GCP Billing Analytics 中提到過關於 Cloud Functions 的計費超乎預期，進一步分析開發的使用習慣後，也找出部分功能應該將其從 Cloud Functions 搬遷至基於 GCE instances 的服務上，以達到節費的期望。
-在原先的設計中，我們將 Cloud Functions 作為 ETL data flow 的其中一個環節，透過 Pub/Sub trigger Cloud Functions 的方式使其運作；考慮到 Pub/Sub subscriber push/pull 的 Ack 等待時間有著最長 600 秒的限制，我將這部分需要搬遷的 Cloud Functions 大致分為兩種需求
-靜態資料源: 在提取資料時，可預期資料是存在且可被存取的 動態資料源: 可能發生資料不存在，或者是無法存取的情況 本篇文章是記錄
-用 Kubernetes Pod 替代 Cloud Function 環節以處理動態資料源的方法 Google Kubernetes Engine: Ingress &amp;amp; Service ASGI 與FastAPI Dockerize &amp;amp; Deployment 靜態資料源的處理方案 &amp;gt; Migrate Google Cloud Functions to Airflow
-Design Change Figure 1 是一個常見的使用案例，我將 Cloud Function 的執行邏輯簡略為 4 個部份來進行描述，即: 等待 Request (Accept Request) 、 處理邏輯 (Process)、產出結果 (Result) ，以及回復 Ack (Response HTTP Status Code)</description>
+      <description>&lt;p&gt;本篇文章是記錄&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#1234&#34;&gt;用 &lt;code&gt;Kubernetes Pod&lt;/code&gt; 替代 &lt;code&gt;Cloud Function&lt;/code&gt; 環節以處理&lt;code&gt;動態資料源&lt;/code&gt;的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dee1&#34;&gt;&lt;code&gt;Google Kubernetes Engine: Ingress &amp;amp; Service&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fa5e&#34;&gt;&lt;code&gt;ASGI 與FastAPI&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#b458&#34;&gt;&lt;code&gt;Dockerize &amp;amp; Deployment&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -522,11 +536,13 @@ Design Change Figure 1 是一個常見的使用案例，我將 Cloud Function �
       <pubDate>Sat, 22 Jan 2022 05:10:20 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/normal/migrate-google-cloud-functions-to-airflow/</guid>
-      <description>在 GCP Billing Analytics 中提到過關於 Cloud Functions 的計費超乎預期，進一步分析開發的使用習慣後，也找出部分功能應該將其從 Cloud Functions 搬遷至基於 GCE instances 的服務上，以達到節費的期望。
-在原先的設計中，我們將 Cloud Functions 作為 ETL data flow 的其中一個環節，透過 Pub/Sub trigger Cloud Functions 的方式使其運作；考慮到 Pub/Sub subscriber push/pull 的 Ack 等待時間有著最長 600 秒的限制，我將這部分需要搬遷的 Cloud Functions 大致分為兩種需求
-靜態資料源: 在提取資料時，可預期資料是存在且可被存取的 動態資料源: 可能發生資料不存在，或者是無法存取的情況 本篇文章是記錄
-用 Airflow DAG (Directed Acyclic Graph) 替代 Cloud Function 環節以處理靜態資料源的方法 Airflow GCP Operators 使用 在 DAG 中平行處理(parallel processing)的方式 動態資料源的處理方案 &amp;gt; Migrate Google Cloud Functions to Kubernetes
-Design Change Figure 1 是一個經典的使用案例，透過 GCS notification 的機制，當 bucket 中有檔案 (Object) 異動時，將異動的資訊 publish 到指定的 Pub/Sub Topic。 部署 Cloud Function 可以指定--trigger-topic 接受 Topic 的觸發，使得 Cloud Function 可以接收異動檔案的資訊，如: bucket name、object path ， 進行轉置 (Transform) 處理後將結果存放到 Big Query 。</description>
+      <description>&lt;p&gt;本篇文章是記錄&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#a63a&#34;&gt;用 &lt;code&gt;Airflow DAG&lt;/code&gt; (Directed Acyclic Graph) 替代 &lt;code&gt;Cloud Function&lt;/code&gt; 環節以處理&lt;code&gt;靜態資料源&lt;/code&gt;的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#7077&#34;&gt;&lt;code&gt;Airflow GCP Operators&lt;/code&gt; 使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#0481&#34;&gt;在 &lt;code&gt;DAG 中平行處理(parallel processing)&lt;/code&gt;的方式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -535,10 +551,7 @@ Design Change Figure 1 是一個經典的使用案例，透過 GCS notification 
       <pubDate>Mon, 27 Dec 2021 14:13:51 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/normal/gcp-billing-analytics/</guid>
-      <description>最近利用 GA4 、 UA ，以及團隊的開發產品所蒐集到的資料，協助團隊進一步了解產品的成效與成本的利用情況。團隊的開發與產品環境皆建立在 Google Cloud Platform (GCP) 上，在分析 GCP billing report 的原始資料時，也引發了我 &amp;ldquo;對於同仁們對於如何利用開發環境&amp;rdquo; 感到好奇，寫下這篇文章作為紀錄。
-在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。
-Google Compute Engine (GCE) 在 GCP 上，無論我們開啟的是一般的 VM 機器，又或者是 Google Kubernetes Engine (GKE) 的 Node ， 本身所使用的資源單位都可以稱為 Instance ； 換句話說，可以簡單的將 Instance 理解為能夠提供絕大部分 VM 相關功能的資源，如 : vCPU、Memory、Disk、Netwroking 以及機器學習最需要的 GPU (TPU)等等，因此這一部份的資源用量也都會被歸因到 GCE 上。
-將 billing report data 依據 SKU 進行加總並命名為 「Cost」欄位，再對 「Cost」欄位做 kernel density estimation (kde) 後可以得到 「Cost」的群聚密度，同時也能獲取一組較為合理的上下邊界以利取得離群值，「Cost」的離群值對於 billing report 的意義則在於找出異常的費用；以 下將固定使用 kde 取離群值的作法，因此不再一一贅述。</description>
+      <description>在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。</description>
     </item>
     
     <item>
@@ -547,13 +560,7 @@ Google Compute Engine (GCE) 在 GCP 上，無論我們開啟的是一般的 VM 
       <pubDate>Mon, 27 Sep 2021 10:47:11 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/normal/etl-elt-iot-device-alive-check/</guid>
-      <description>既上次發布 Google Certified 與 Cloud 後，和 Ryan 討論人流偵測系統中的資料流，以及感測設備是否存活的議題； Ryan 的工作背景是 Compute Vision 相關，相對於 ETL 資料處理流程中屬於提供 E ( extract ) 端服務的角色，也特別重視 extract 的功能是否都能如期發揮作用。
-ETL | ELT 是流程還是系統 ?
-ETL ( Extract-Transform-Load ) 與 ELT ( Extract-Load-Transform ) 是資料處理中常見的處理流程代名詞；個人認為 ETL ≠ ELT ， L | T 的先後順序除了影響處理流程的腳本之外，其實也需要搭配 scenario 來一起討論，同時也可能需要依賴應用系統的受眾群體特徵，搭建出對應的處理框架，以期在合理的效能下達成提供資料的目的。
-在上述過程中可以看出，ETL | ELT 會依據實際狀況而對於框架設計有所改變， ETL | ELT 應屬於流程，在實作完成後才會變成具體的系統；而流程則可以被獨立提出進行討論。
-Extract 是否有在好好運作 ? 資料遺失是否可以避免 ?
-在 Ryan 提出的議題中，extract 的服務由具體的感應偵測設備產生 log 資料，並不斷的往後段進行傳送，以便進行分析或儲存；當 extract device 離線或者是發生故障，若沒有在第一時間進行確認與通知相關人員，往往要等到進行資料統計時才會發現資料遺失。
-為此，主動進行 Check Sensor Is Alive 的機制看起來不可避免，或是有其他的途徑可以達成相同的目的呢 ?</description>
+      <description>在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。</description>
     </item>
     
     <item>
@@ -562,18 +569,10 @@ Extract 是否有在好好運作 ? 資料遺失是否可以避免 ?
       <pubDate>Wed, 22 Sep 2021 14:14:13 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/normal/google-certified-cloud/</guid>
-      <description>轉換到雲端領域工作也過了大半年，這段不算長且還在進行中旅程中也獲取了三張 Google Cloud Platform ( GCP ) 的 Certified : Associate Cloud Engineer | Professional Cloud Architect | Professional Cloud Network Engineer
-每每在考取認證的當下，也試著將這份喜悅分享給社群好友，也因此成為了開啟與好友交流雲端使用經驗的契機。
-最近，和 Enzo 聊到在工作領域深耕的話題。Enzo 對資料科學的領域具有高度熱忱，也希望朝著 Senior Data Engineer 的角色發展；目前對於 Senior Data Engineer 的專業需求中，經常看到需要具備雲端平台的服務或工具等使用經驗；Enzo 除了使用中的 Google Compute Engine ( GCE ) Virtual Machine 服務之外，也希望進一步了解自學 GCP 的必要性與可能性，同時透過考取認證的方式確認自己學習的成果，以及希望將其作為對外證明的一舉兩得好方式。
-和 Enzo 交流討論的過程中，我也從中發現一些值得紀錄的觀點。無論未來的我對這個觀點是抱持著贊同的態度，也或者大相徑庭，都是一種值得回味的思考。
-以下透過幾個問題的交流過程，記錄我對使用雲端平台以及上雲這件事情的想法
+      <description>透過幾個問題的交流過程，記錄我對使用雲端平台以及上雲這件事情的想法
 拿認證對工作實戰的幫助以及對職涯的幫助，還是說有使用經驗其實不一定要拿認證，以實用性來說是不是熟悉其中幾項服務就足夠了 ?
-當初考慮轉換工作領域時，我也曾思考過這個問題；再陸續考取認證的過程中，也找到了一個自己認為合適的答案。
-_考取認證僅證明你確實理解官方在這張認證領域上所提出的 Best Practice，並且具備將其轉換應用到實務上的基礎能力_
-換句話說 : 認證是一個敲門磚。
-對外來說確實也是一個不錯的證明，面對非相同專業領域的人而言，這也代表了官方的背書。
-推薦的學習路徑和學習資源 ：會建議先去拿助理認證，還是可以直衝專家認證 ?
-因為長期使用 GCE 的經驗，促使 Enzo 希望從 GCP 的認證作為起步。</description>
+考取認證僅證明你確實理解官方在這張認證領域上所提出的 Best Practice，並且具備將其轉換應用到實務上的基礎能力,
+推薦的學習路徑和學習資源 ：會建議先去拿助理認證，還是可以直衝專家認證 ?</description>
     </item>
     
   </channel>

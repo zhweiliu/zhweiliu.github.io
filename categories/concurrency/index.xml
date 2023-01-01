@@ -17,9 +17,11 @@
       
       <guid>https://blog.zhengweiliu.com/posts/normal/python3-asyncio/</guid>
       <description>asyncio is a library to write concurrent code using the async/await syntax.
-&amp;mdash;- from Python3.11.1 documentation
-This article is write down the note with my study of python asyncio package.
-How does asyncio work ? The main process, which is start run by IDE or command line, have a main thread to execute submit a coroutine to asyncio event loops by asyncio.create_task() or asyncio.run() , the keyword async will packet methods as coroutine.</description>
+How does &lt;em&gt;asyncio&lt;/em&gt; work ?
+async &amp;amp; await,&lt;br&gt;
+Create Task &amp;amp; Submit Coroutine,
+Timeout &amp;amp; Cancel,
+Gather multi task&amp;hellip;</description>
     </item>
     
   </channel>
