@@ -3,6 +3,10 @@ title: GCP Billing Analysis
 date: '2021-12-27T14:13:51.565Z'
 categories: ['Google Cloud Platform', 'Analysis']
 keywords: ['Google Cloud Platform', 'GCP', 'Analysis']
+showToc: true
+TocOpen: true
+summary: |
+  在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。
 ---
 
 最近利用 GA4 、 UA ，以及團隊的開發產品所蒐集到的資料，協助團隊進一步了解產品的成效與成本的利用情況。團隊的開發與產品環境皆建立在 Google Cloud Platform (GCP) 上，在分析 GCP billing report 的原始資料時，也引發了我 "對於同仁們對於如何利用開發環境" 感到好奇，寫下這篇文章作為紀錄。

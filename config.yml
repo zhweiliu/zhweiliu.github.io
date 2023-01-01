@@ -94,9 +94,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
@@ -115,14 +115,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: search
-      name: Search
-      url: /search/
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
       weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

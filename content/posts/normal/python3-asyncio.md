@@ -3,11 +3,22 @@ title: 'Python3 - asyncio'
 date: '2022-12-22T14:12:05.020Z'
 categories: ['Python3', 'Concurrency']
 keywords: ['Python3', 'Concurrency', 'asyncio']
----
+showToc: true
+TocOpen: true
+summary: |
+  asyncio is a library to write concurrent code using the async/await syntax. 
+  How does _asyncio_ work ?
+  async & await,  
+  Create Task & Submit Coroutine,
+  Timeout & Cancel,
+  Gather multi task...
 
+---
+```pre
 asyncio is a library to write concurrent code using the async/await syntax.  
   
 ---- from Python3.11.1 documentation
+```
 
 This article is write down the note with my study of python asyncio package.
 
@@ -45,7 +56,7 @@ This article is write down the note with my study of python asyncio package.
 ![](/images/normal/python3-asyncio/image_4.png)
 Sometimes, we want the task keep going on their work until finish, and I just would like to know the task will happened timeout or not. For example: Counting the times of timeout to calculate performance
 
-## Parallel multi task
+## Gather multi task
 
 *   Using `asyncio.gather(task1, task2, …, taskN)`
 *   Add parameter `return_exceptions = True` capture exception result

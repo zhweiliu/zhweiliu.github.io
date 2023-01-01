@@ -3,9 +3,14 @@ title: ETL | ELT 與 IoT Device Alive Check
 date: '2021-09-27T10:47:11.023Z'
 categories: ['Data Engineering']
 keywords: ['ETL', 'Data Pipeline']
+showToc: true
+TocOpen: true
+summary: |
+  在產品的開發中，團隊消耗成本最高的前幾項排名既在意料之中，Google Compute Engine (GCE)、 Cloud Functions 、 BigQuery 以及 Google Cloud Storage，但細項的部分也在意料之外。
 ---
 
-既上次發布 [Google Certified 與 Cloud](https://medium.com/@zhweiliu/google-certified-%E8%88%87-cloud-34bfa7b2067e?source=your_stories_page-------------------------------------) 後，和 Ryan 討論人流偵測系統中的資料流，以及感測設備是否存活的議題； Ryan 的工作背景是 Compute Vision 相關，相對於 ETL 資料處理流程中屬於提供 E ( extract ) 端服務的角色，也特別重視 extract 的功能是否都能如期發揮作用。
+既上次發布 [Google Certified 與 Cloud]後，和 Ryan 討論人流偵測系統中的資料流，以及感測設備是否存活的議題； Ryan 的工作背景是 Compute Vision 相關，相對於 ETL 資料處理流程中屬於提供 E ( extract ) 端服務的角色，也特別重視 extract 的功能是否都能如期發揮作用。
+{{< innerlink src="posts/normal/google-certified-cloud.md" >}} 
 
 > `ETL | ELT 是流程還是系統 ?`
 

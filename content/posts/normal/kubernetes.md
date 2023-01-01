@@ -3,6 +3,13 @@ title: 整理面試常見問題 — Kubernetes
 date: '2022-12-08T06:26:47.022Z'
 categories: ['Kubernetes', 'Interview']
 keywords: ['Kubernetes', 'Interview']
+summary: |
+  記錄在過去面試中常被問到的問題，以及依據自己的理解與查找到的資料，整理對應的回覆 
+  Q1. K8s 有哪些 components ?
+  Q2. 部署一個應用到 K8s 時，K8s 會如何運作整個流程 ?
+  Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)的規劃
+showToc: true
+TocOpen: true
 ---
 
 記錄在過去面試中常被問到的問題，以及依據自己的理解與查找到的資料，整理對應的回覆
@@ -25,7 +32,7 @@ Q1. K8s 有哪些 components ?
 
 Q2. 部署一個應用到 K8s 時，K8s 會如何運作整個流程 ?
 
-![](/images/normal/-kubernetes/image_0.png)
+![](/images/normal/kubernetes/image_0.png)
 1.  `User` 發送 deploy request 給 `kube-apiserver`。`kube-apiserver` 驗證 User 並驗證是否為有效的 request。
 2.  將有效的 request 更新到 `ETCD`。
 3.  `ETCD` 回覆 `kube-apiserver` 更新已完成。

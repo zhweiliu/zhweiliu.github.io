@@ -3,9 +3,15 @@ title: Customer Data Platform 是如何煉成的 (二)
 date: '2022-03-28T13:41:44.862Z'
 categories: ['Customer Data Platform']
 keywords: ['Customer Data Platform', 'CDP']
+showToc: true
+TocOpen: true
+summary: |
+  顯而易見，討論出一個有共識、覺得可行的方式將問題進行轉化，這就屬於洞察(Insights)；而被提出的問題本身，則是被發現的異常(Anomaly)。原文最後提出「具有評分等級的使用者清單」則是貢獻(Contribute)。
+  有趣的是，當營銷人員依據清單進行預算投放後，便又能獲取新一輪的結果，這個結果除了可供驗證，同時也具備發現新異常的可能性。
 ---
 
-在 [Customer Data Platform 是如何煉成的](https://zhengwei-liu.medium.com/customer-data-platform-%E6%98%AF%E5%A6%82%E4%BD%95%E7%85%89%E6%88%90%E7%9A%84-543345154e09?source=user_profile---------0-------------------------------) 中提到，Data Platform 透過洞察與發現 ( Insights Discovery )、貢獻與進化 ( Contribute Evolution) 以及異常偵測 ( Anomaly Detection) 組成一個周而復始的正向循環，讓資料提供具有貢獻的結果。
+在 [Customer Data Platform 是如何煉成的]中提到，Data Platform 透過洞察與發現 ( Insights Discovery )、貢獻與進化 ( Contribute Evolution) 以及異常偵測 ( Anomaly Detection) 組成一個周而復始的正向循環，讓資料提供具有貢獻的結果。
+{{< innerlink src="posts/normal/customer-data-platform-1.md" >}} 
 
 最近讀到 [How to Optimize KPIs by Distilling Data With Machine Learning](https://accutics.com/how-to-optimize-kpis-by-distilling-data/) 這篇文章，原文中提及的例子: 利用 User Behavior 進行機器學習，最後產出一個具備評分的可交付名單，提供給營銷人員進行後續操作；詳細的部分請再點閱原文，以下我想分享閱讀後的心得。
 

@@ -3,6 +3,13 @@ title: Google Certified 與 Cloud
 date: '2021-09-22T14:14:13.175Z'
 categories: ['Google Cloud Platform', 'Certified']
 keywords: ['Google Cloud Platform', 'GCP', 'Certified']
+summary: |
+  透過幾個問題的交流過程，記錄我對使用雲端平台以及上雲這件事情的想法
+  拿認證對工作實戰的幫助以及對職涯的幫助，還是說有使用經驗其實不一定要拿認證，以實用性來說是不是熟悉其中幾項服務就足夠了 ?
+  考取認證僅證明你確實理解官方在這張認證領域上所提出的 Best Practice，並且具備將其轉換應用到實務上的基礎能力,
+  推薦的學習路徑和學習資源 ：會建議先去拿助理認證，還是可以直衝專家認證 ?
+showToc: true
+TocOpen: true
 ---
 
 轉換到雲端領域工作也過了大半年，這段不算長且還在進行中旅程中也獲取了三張 Google Cloud Platform ( GCP ) 的 Certified : [Associate Cloud Engineer](https://www.credential.net/2060f4eb-0afb-4628-9237-f5c8eae687e9) | [Professional Cloud Architect](https://www.credential.net/37dfa404-45f2-4896-bca4-6cea88bc4c5d) | [Professional Cloud Network Engineer](https://www.credential.net/36f2cddd-6111-450b-8ac0-5470a37ee034)
@@ -19,7 +26,7 @@ keywords: ['Google Cloud Platform', 'GCP', 'Certified']
 
 當初考慮轉換工作領域時，我也曾思考過這個問題；再陸續考取認證的過程中，也找到了一個自己認為合適的答案。
 
-> `_考取認證僅證明你確實理解官方在這張認證領域上所提出的 Best Practice，並且具備將其轉換應用到實務上的基礎能力_`
+> `考取認證僅證明你確實理解官方在這張認證領域上所提出的 Best Practice，並且具備將其轉換應用到實務上的基礎能力`
 
 `換句話說 : 認證是一個敲門磚。`
 

@@ -2,9 +2,11 @@
 draft: true
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-categories:
-- None
-tags:
-- None
+categories: [""]
+keywords: [""]
+showToc: true
+TocOpen: true
+summary: |
+  
 ---
 
