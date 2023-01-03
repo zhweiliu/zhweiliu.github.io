@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 185. Department Top Three Salaries'
 date: '2022-12-06T17:21:44.783Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 題目

@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1412. Find the Quiet Students in All Exams'
 date: '2022-12-13T01:08:00.986Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

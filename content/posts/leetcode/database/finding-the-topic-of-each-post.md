@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2199. Finding the Topic of Each Post'
 date: '2022-12-18T20:54:39.019Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

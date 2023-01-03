@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2118. Build the Equation'
 date: '2022-12-16T23:57:37.348Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

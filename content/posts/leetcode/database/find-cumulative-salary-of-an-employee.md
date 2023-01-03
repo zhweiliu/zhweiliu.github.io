@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 579. Find Cumulative Salary of an Employee'
 date: '2022-12-06T15:18:29.163Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

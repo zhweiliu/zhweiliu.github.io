@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2173. Longest Winning Streak'
 date: '2022-12-18T21:45:21.994Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

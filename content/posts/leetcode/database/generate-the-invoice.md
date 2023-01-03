@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2362. Generate the Invoice'
 date: '2022-12-18T21:10:22.259Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

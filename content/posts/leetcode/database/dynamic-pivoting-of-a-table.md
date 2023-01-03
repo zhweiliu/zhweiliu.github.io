@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2252. Dynamic Pivoting of a Table'
 date: '2022-12-05T08:12:40.016Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

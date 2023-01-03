@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1479. Sales by Day of the Week'
 date: '2022-12-06T08:37:04.705Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

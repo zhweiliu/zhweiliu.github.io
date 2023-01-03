@@ -3,6 +3,8 @@ title: '[leetcode][Python][Concurrency][Medium] 1115. Print FooBar Alternately'
 date: '2022-12-24T04:07:08.369Z'
 categories: ['leetcode']
 keywords: ['concurrency', 'python']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

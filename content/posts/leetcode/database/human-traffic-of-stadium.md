@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 601. Human Traffic of Stadium'
 date: '2022-12-06T14:55:01.530Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

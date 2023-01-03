@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1767. Find the Subtasks That Did Not Execute'
 date: '2022-12-15T17:53:09.861Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

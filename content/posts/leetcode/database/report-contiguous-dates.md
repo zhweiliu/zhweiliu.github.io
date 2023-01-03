@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1225. Report Contiguous Dates'
 date: '2022-12-07T02:38:30.546Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

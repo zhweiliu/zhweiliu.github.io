@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1384. Total Sales Amount by Year'
 date: '2022-12-06T09:05:48.196Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

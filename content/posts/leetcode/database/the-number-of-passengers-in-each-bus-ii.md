@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2153. The Number of Passengers in Each Bus II
 date: '2022-12-05T08:34:19.919Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

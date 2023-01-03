@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1194. Tournament Winners'
 date: '2022-12-06T09:28:54.784Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

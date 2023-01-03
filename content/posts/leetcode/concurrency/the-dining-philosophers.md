@@ -3,6 +3,8 @@ title: '[leetcode][Python][Concurrency][Medium] 1226. The Dining Philosophers'
 date: '2022-12-24T15:05:27.192Z'
 categories: ['leetcode']
 keywords: ['concurrency', 'python']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

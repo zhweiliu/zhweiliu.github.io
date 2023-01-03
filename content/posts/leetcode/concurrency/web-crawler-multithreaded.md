@@ -3,6 +3,8 @@ title: '[leetcode][Python][Concurrency][Medium] 1242. Web Crawler Multithreaded'
 date: '2022-12-22T06:53:34.260Z'
 categories: ['leetcode']
 keywords: ['concurrency', 'python', 'web crawler']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

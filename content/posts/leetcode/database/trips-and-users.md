@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 262. Trips and Users'
 date: '2022-12-06T17:08:27.973Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

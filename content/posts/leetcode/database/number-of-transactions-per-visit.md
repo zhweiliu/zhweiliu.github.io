@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1336. Number of Transactions per Visit'
 date: '2022-12-12T16:38:05.305Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

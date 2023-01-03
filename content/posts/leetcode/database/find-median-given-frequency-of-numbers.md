@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 571. Find Median Given Frequency of Numbers'
 date: '2022-12-06T16:31:02.761Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

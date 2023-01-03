@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1919. Leetcodify Similar Friends'
 date: '2022-12-16T01:08:30.340Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

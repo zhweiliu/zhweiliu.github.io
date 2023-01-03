@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard]2253. Dynamic Unpivoting of a Table'
 date: '2022-12-16T21:13:39.338Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

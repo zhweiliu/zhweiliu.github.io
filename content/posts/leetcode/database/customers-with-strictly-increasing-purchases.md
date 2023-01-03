@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 2474. Customers With Strictly Increasing Purc
 date: '2022-12-18T21:30:30.719Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

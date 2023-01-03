@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1892. Page Recommendations II'
 date: '2022-12-15T21:38:41.738Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

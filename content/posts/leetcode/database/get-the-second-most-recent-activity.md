@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1369. Get the Second Most Recent Activity'
 date: '2022-12-13T00:10:04.002Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

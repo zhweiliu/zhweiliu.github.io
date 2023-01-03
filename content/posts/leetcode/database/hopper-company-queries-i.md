@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1635. Hopper Company Queries I'
 date: '2022-12-14T08:28:10.032Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

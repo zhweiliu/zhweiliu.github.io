@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard]1972. First and Last Call On the Same Day'
 date: '2022-12-06T05:39:34.595Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

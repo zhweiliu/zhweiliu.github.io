@@ -5,6 +5,8 @@ title: >-
 date: '2022-12-17T00:11:43.958Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

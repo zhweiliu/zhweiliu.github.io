@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1159. Market Analysis II'
 date: '2022-12-06T12:27:16.979Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目

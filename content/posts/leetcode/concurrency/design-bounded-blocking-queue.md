@@ -3,6 +3,8 @@ title: '[leetcode][Python][Concurrency][Medium] 1188. Design Bounded Blocking Qu
 date: '2022-12-22T07:45:19.754Z'
 categories: ['leetcode']
 keywords: ['concurrency', 'python']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

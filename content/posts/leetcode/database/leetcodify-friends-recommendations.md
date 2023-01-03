@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1917. Leetcodify Friends Recommendations'
 date: '2022-12-15T23:52:20.337Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

@@ -3,6 +3,8 @@ title: '[leetcode][Python][Concurrency][Medium] 1195. Fizz Buzz Multithreaded'
 date: '2022-12-24T05:25:42.878Z'
 categories: ['leetcode']
 keywords: ['concurrency', 'python']
+showToc: true
+TocOpen: true
 ---
 
 ## Description

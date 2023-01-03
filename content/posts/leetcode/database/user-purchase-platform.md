@@ -3,6 +3,8 @@ title: '[leetcode][Database][Hard] 1127. User Purchase Platform'
 date: '2022-12-06T13:21:25.529Z'
 categories: ['leetcode']
 keywords: ['database', 'mysql']
+showToc: true
+TocOpen: true
 ---
 
 ## 題目
