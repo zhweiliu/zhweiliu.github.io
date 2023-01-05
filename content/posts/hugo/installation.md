@@ -1,11 +1,8 @@
 ---
-draft: true
 title: "Hugo 安裝與部署到 GitHub Pages ( Mac M2 ) "
 date: 2023-01-05T14:58:42+08:00
 categories: ["Hugo"]
 keywords: ["Hugo", "Mac M2"]
-showToc: true
-TocOpen: true
 summary: |
   這篇文章主要提供在 Mac M2 上安裝 Hugo 、執行一個 quick start 的示範站點，並自動部署到 GitHub Pages 的過程
 ---
