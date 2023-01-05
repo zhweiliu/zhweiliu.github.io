@@ -10,6 +10,18 @@ buildExpired: false
 
 # googleAnalytics: UA-123-45
 
+
+paginate: 5 # 首頁文章筆數
+defaultContentLanguage: "zh-tw"
+enableGitInfo: true
+enableInlineShortcodes: true
+enableEmoji: true # allow Emoji
+enableRobotsTXT: true # allow crawler scraping to search engine
+hasCJKLanguage: true
+
+
+
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -30,7 +42,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -39,8 +51,11 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: open
+  tocopen: open
+  visitCount: true
+  
+
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -52,7 +67,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Posts"
+    text: "🏠Home"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -98,10 +113,10 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: false # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: false # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -115,18 +130,19 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: archives
-      name: Archives
-      url: /archives/
+    - identifier: search
+      name: 🔍 Search
+      url: /search/
       weight: 10
     - identifier: categories
-      name: Categories
+      name: 🏷️ Categories
       url: /categories/
       weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
+    - identifier: archives
+      name: 📚 Archives
+      url: /archives/
       weight: 30
+    
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
