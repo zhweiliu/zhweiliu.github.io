@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 14:58:42 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 22:42:35 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Pages 設定 Custom Domain ( Go Daddy )</title>
+      <link>https://blog.zhengweiliu.com/posts/hugo/custom_domain/</link>
+      <pubDate>Thu, 05 Jan 2023 22:42:35 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/hugo/custom_domain/</guid>
+      <description>這篇文章主要提供 GitHub Pages 設定 custom domain 的過程</description>
+    </item>
+    
     <item>
       <title>Hugo 安裝與部署到 GitHub Pages ( Mac M2 ) </title>
       <link>https://blog.zhengweiliu.com/posts/hugo/installation/</link>

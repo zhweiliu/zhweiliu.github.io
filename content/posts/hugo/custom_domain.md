@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "GitHub Pages 設定 Custom Domain ( Go Daddy )"
 date: 2023-01-05T22:42:35+08:00
 categories: ["Hugo"]
