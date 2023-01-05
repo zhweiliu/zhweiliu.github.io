@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 15:05:27 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 14:58:42 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 安裝與部署到 GitHub Pages ( Mac M2 ) </title>
+      <link>https://blog.zhengweiliu.com/posts/hugo/installation/</link>
+      <pubDate>Thu, 05 Jan 2023 14:58:42 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/hugo/installation/</guid>
+      <description>這篇文章主要提供在 Mac M2 上安裝 Hugo 、執行一個 quick start 的示範站點，並自動部署到 GitHub Pages 的過程</description>
+    </item>
+    
     <item>
       <title>[leetcode][Python][Concurrency][Medium] 1226. The Dining Philosophers</title>
       <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/the-dining-philosophers/</link>
