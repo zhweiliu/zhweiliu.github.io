@@ -25,7 +25,7 @@ Hugo 經常會伴隨著 Git 和 Go 的功能來進行部署和使用其他的 `m
 #### Git installation
 Mac M2 預設已安裝 Git
 
-![](/images/hugo/git_version.png)
+![](/images/hugo/installation/git_version.png)
 
 透過指令確認 git 是否已安裝
 ```bash
@@ -45,7 +45,7 @@ brew install go
 
 安裝完成後，利用指令檢查安裝版本，以確認安裝成功
 
-![](/images/hugo/go_version.png)
+![](/images/hugo/installation/go_version.png)
 
 
 ### brew install Hugo
@@ -55,7 +55,7 @@ brew install hugo
 ```
 
 安裝完成後，一樣利用指令檢查安裝版本，以確認安裝成功
-![](/images/hugo/hugo_version.png)
+![](/images/hugo/installation/hugo_version.png)
 
 ---
 
@@ -90,7 +90,7 @@ $ hugo server -D
 ```
 
 執行 `hugo server -D` 後，可以在 terminal 看到本機電腦提供的測試 URL : `http://localhost:1313/` ，在瀏覽器上輸入這段 URL 便能夠看到本機點腦上的 Hugo 站點與文章
-![](/images/hugo/hugo_example.png)
+![](/images/hugo/installation/hugo_example.png)
 
 ### 新增一篇文章
 在 terminal 中，進入了 `qucikstart` 的 Hugo 站點資料夾後，利用 Hugo 指令建立一篇新的文章
@@ -139,13 +139,13 @@ Visit the [Hugo](https://gohugo.io) website!
 ### 建立 GitHub Pages 的 Repository
 登入自己的 GitHub 帳號後，建立一個 repository 給 `GitHub Pages` 使用
 
-![GitHub Pages Repository](/images/hugo/github_pages_repository.png)
+![GitHub Pages Repository](/images/hugo/installation/github_pages_repository.png)
 
 > **Repository Name** 嚴格規定要使用 `{github 帳號}.github.io`
 
 先找到剛才建立好的 GitHub Pages Repository 提供的 **HTTP URL**
 
-![](/images/hugo/repository_url.png)
+![](/images/hugo/installation/repository_url.png)
 
 開啟 Terminal 並在 Hugo 站點下執行 git 指令
 ```bash
@@ -156,7 +156,7 @@ $ git remote add origin {GitHub Pages Repository URL}
 ```
 $ git remote -v
 ```
-![](/images/hugo/git_remote.png)
+![](/images/hugo/installation/git_remote.png)
 
 #### GitHub Personal Access Token
 > 如果第一次在 Mac 上設定 Git 連線資訊，有可能會提示你要輸入 GitHub 的帳號密碼。 
@@ -164,7 +164,7 @@ $ git remote -v
 
 Hugo 在部署站點時會需要使用 CI/CD 的功能，因此 **GitHub Access Token** 的 **Scope** 中需要把 **workflow** 一併勾選以授權
 
-![GitHub Access Token](/images/hugo/github_pat_scope.png)
+![GitHub Access Token](/images/hugo/installation/github_pat_scope.png)
 
 ### 設定 GitHub Action
 透過設定 GitHub Action ， 在每次將文章推送到 GitHub Repository 後，自動執行部署站點的動作
@@ -249,11 +249,11 @@ $ git push -u origin main
 ### 檢查 GitHub Pages 部署狀況
 在 GitHub Pages 中點選 Actions 頁簽，可以查看所有 workflow 的運型狀況。 
 由於前面設定了 `.github/workflows/gh-pages.yml` 檔案，每次將異動的檔案同步到 GitHub Pages Repository 後， GitHub 便會自動執行 `.github/workflows/gh-pages.yml` 檔案設定的工作流內容，並將 Hugo 站點的文章部署到 GitHub Pages
-![](/images/hugo/github_pages_actions.png)
+![](/images/hugo/installation/github_pages_actions.png)
 
 ### 修改 GitHub Pages Repository 的分支
 在 GitHub Pages Repository 的 Settings 頁簽中修改 Branch ，這個動作是讓 GitHub Pages 可以知道應該從哪一個 Branch 抓取需要部署的 Hugo 站點資料
 
 GitHub Pages Repository > Settings > Pages (左側選單) > Build and deployment > Branch > 點擊下拉選單從 `main` 更改為 `gh-pages`.
 
-![](/images/hugo/github_pages_setup_publish_branch.png)
+![](/images/hugo/installation/github_pages_setup_publish_branch.png)
