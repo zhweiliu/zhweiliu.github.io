@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 15:05:27 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 14:58:42 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://blog.zhengweiliu.com/categories/hugo/</link>
+      <pubDate>Thu, 05 Jan 2023 14:58:42 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>leetcode</title>
       <link>https://blog.zhengweiliu.com/categories/leetcode/</link>

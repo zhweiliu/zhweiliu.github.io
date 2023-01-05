@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 15:05:27 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 14:58:42 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 安裝與部署到 GitHub Pages ( Mac M2 ) </title>
+      <link>https://blog.zhengweiliu.com/posts/hugo/installation/</link>
+      <pubDate>Thu, 05 Jan 2023 14:58:42 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/hugo/installation/</guid>
+      <description>這篇文章主要提供在 Mac M2 上安裝 Hugo 、執行一個 quick start 的示範站點，並自動部署到 GitHub Pages 的過程</description>
+    </item>
+    
     <item>
       <title>[leetcode][Python][Concurrency][Medium] 1226. The Dining Philosophers</title>
       <link>https://blog.zhengweiliu.com/posts/leetcode/concurrency/the-dining-philosophers/</link>
@@ -285,9 +294,7 @@ Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)�
       <pubDate>Wed, 07 Dec 2022 02:38:30 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/report-contiguous-dates/</guid>
-      <description>題目 Table: Failed
-+--------------+---------+ | Column Name | Type | +--------------+---------+ | fail_date | date | +--------------+---------+ fail_date is the primary key for this table. This table contains the days of failed tasks. Table: Succeeded
-+--------------+---------+ | Column Name | Type | +--------------+---------+ | success_date | date | +--------------+---------+ success_date is the primary key for this table. This table contains the days of succeeded tasks. A system is running one task every day.</description>
+      <description>題目 Table: Failed +--------------+---------+ | Column Name | Type | +--------------+---------+ | fail_date | date | +--------------+---------+ fail_date is the primary key for this table. This table contains the days of failed tasks. Table: Succeeded +--------------+---------+ | Column Name | Type | +--------------+---------+ | success_date | date | +--------------+---------+ success_date is the primary key for this table. This table contains the days of succeeded tasks. A system is running</description>
     </item>
     
     <item>
@@ -296,9 +303,7 @@ Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)�
       <pubDate>Tue, 06 Dec 2022 17:21:44 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/department-top-three-salaries/</guid>
-      <description>題目
-Table: Employee
-+--------------+---------+ | Column Name | Type | +--------------+---------+ | id | int | | name | varchar | | salary | int | | departmentId | int | +--------------+---------+ id is the primary key column for this table. departmentId is a foreign key of the ID from the Department table. Each row of this table indicates the ID, name, and salary of an employee. It also contains the ID of their department.</description>
+      <description>題目 Table: Employee +--------------+---------+ | Column Name | Type | +--------------+---------+ | id | int | | name | varchar | | salary | int | | departmentId | int | +--------------+---------+ id is the primary key column for this table. departmentId is a foreign key of the ID from the Department table. Each row of this table indicates the ID, name, and salary of an employee. It also</description>
     </item>
     
     <item>
@@ -307,8 +312,7 @@ Table: Employee
       <pubDate>Tue, 06 Dec 2022 17:08:27 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/trips-and-users/</guid>
-      <description>題目 Table: Trips
-+-------------+----------+ | Column Name | Type | +-------------+----------+ | id | int | | client_id | int | | driver_id | int | | city_id | int | | status | enum | | request_at | date | +-------------+----------+ id is the primary key for this table. The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys to the users_id at the Users table.</description>
+      <description>題目 Table: Trips +-------------+----------+ | Column Name | Type | +-------------+----------+ | id | int | | client_id | int | | driver_id | int | | city_id | int | | status | enum | | request_at | date | +-------------+----------+ id is the primary key for this table. The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys</description>
     </item>
     
     <item>
@@ -317,9 +321,7 @@ Table: Employee
       <pubDate>Tue, 06 Dec 2022 16:48:49 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/median-employee-salary/</guid>
-      <description>題目
-Table: Employee
-+--------------+---------+ | Column Name | Type | +--------------+---------+ | id | int | | company | varchar | | salary | int | +--------------+---------+ id is the primary key column for this table. Each row of this table indicates the company and the salary of one employee. Write an SQL query to find the rows that contain the median salary of each company. While calculating the median, when you sort the salaries of the company, break the ties by id.</description>
+      <description>題目 Table: Employee +--------------+---------+ | Column Name | Type | +--------------+---------+ | id | int | | company | varchar | | salary | int | +--------------+---------+ id is the primary key column for this table. Each row of this table indicates the company and the salary of one employee. Write an SQL query to find the rows that contain the median salary of each company. While calculating the</description>
     </item>
     
     <item>
@@ -328,9 +330,7 @@ Table: Employee
       <pubDate>Tue, 06 Dec 2022 16:31:02 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/find-median-given-frequency-of-numbers/</guid>
-      <description>題目 Table: Numbers
-+-------------+------+ | Column Name | Type | +-------------+------+ | num | int | | frequency | int | +-------------+------+ num is the primary key for this table. Each row of this table shows the frequency of a number in the database. The median is the value separating the higher half from the lower half of a data sample.
-Write an SQL query to report the median of all the numbers in the database after decompressing the Numbers table.</description>
+      <description>題目 Table: Numbers +-------------+------+ | Column Name | Type | +-------------+------+ | num | int | | frequency | int | +-------------+------+ num is the primary key for this table. Each row of this table shows the frequency of a number in the database. The median is the value separating the higher half from the lower half of a data sample. Write an SQL query to report the median</description>
     </item>
     
     <item>
@@ -339,8 +339,7 @@ Write an SQL query to report the median of all the numbers in the database after
       <pubDate>Tue, 06 Dec 2022 15:18:29 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/find-cumulative-salary-of-an-employee/</guid>
-      <description>題目 Table: Employee
-+-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | month | int | | salary | int | +-------------+------+ (id, month) is the primary key for this table. Each row in the table indicates the salary of an employee in one month during the year 2020. Write an SQL query to calculate the cumulative salary summary for every employee in a single unified table.</description>
+      <description>題目 Table: Employee +-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | month | int | | salary | int | +-------------+------+ (id, month) is the primary key for this table. Each row in the table indicates the salary of an employee in one month during the year 2020. Write an SQL query to calculate the cumulative salary summary for every employee in a</description>
     </item>
     
     <item>
@@ -349,8 +348,7 @@ Write an SQL query to report the median of all the numbers in the database after
       <pubDate>Tue, 06 Dec 2022 14:55:01 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/human-traffic-of-stadium/</guid>
-      <description>題目 Table: Stadium
-+---------------+---------+ | Column Name | Type | +---------------+---------+ | id | int | | visit_date | date | | people | int | +---------------+---------+ visit_date is the primary key for this table. Each row of this table contains the visit date and visit id to the stadium with the number of people during the visit. No two rows will have the same visit_date, and as the id increases, the dates increase as well.</description>
+      <description>題目 Table: Stadium +---------------+---------+ | Column Name | Type | +---------------+---------+ | id | int | | visit_date | date | | people | int | +---------------+---------+ visit_date is the primary key for this table. Each row of this table contains the visit date and visit id to the stadium with the number of people during the visit. No two rows will have the same visit_date, and as the</description>
     </item>
     
     <item>
@@ -359,9 +357,7 @@ Write an SQL query to report the median of all the numbers in the database after
       <pubDate>Tue, 06 Dec 2022 14:33:17 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/average-salary-departments-vs-company/</guid>
-      <description>題目 Table: Salary
-+-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | employee_id | int | | amount | int | | pay_date | date | +-------------+------+ id is the primary key column for this table. Each row of this table indicates the salary of an employee in one month. employee_id is a foreign key from the Employee table. Table: Employee
-+---------------+------+ | Column Name | Type | +---------------+------+ | employee_id | int | | department_id | int | +---------------+------+ employee_id is the primary key column for this table.</description>
+      <description>題目 Table: Salary +-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | employee_id | int | | amount | int | | pay_date | date | +-------------+------+ id is the primary key column for this table. Each row of this table indicates the salary of an employee in one month. employee_id is a foreign key from the Employee table. Table: Employee +---------------+------+ | Column</description>
     </item>
     
     <item>
@@ -370,9 +366,7 @@ Write an SQL query to report the median of all the numbers in the database after
       <pubDate>Tue, 06 Dec 2022 14:08:14 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/students-report-by-geography/</guid>
-      <description>題目 Table: Student
-+-------------+---------+ | Column Name | Type | +-------------+---------+ | name | varchar | | continent | varchar | +-------------+---------+ There is no primary key for this table. It may contain duplicate rows. Each row of this table indicates the name of a student and the continent they came from. A school has students from Asia, Europe, and America.
-Write an SQL query to pivot the continent column in the Student table so that each name is sorted alphabetically and displayed underneath its corresponding continent.</description>
+      <description>題目 Table: Student +-------------+---------+ | Column Name | Type | +-------------+---------+ | name | varchar | | continent | varchar | +-------------+---------+ There is no primary key for this table. It may contain duplicate rows. Each row of this table indicates the name of a student and the continent they came from. A school has students from Asia, Europe, and America. Write an SQL query to pivot the continent</description>
     </item>
     
     <item>
@@ -381,8 +375,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 13:48:34 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/game-play-analysis-v/</guid>
-      <description>題目 Table: Activity
-+--------------+---------+ | Column Name | Type | +--------------+---------+ | player_id | int | | device_id | int | | event_date | date | | games_played | int | +--------------+---------+ (player_id, event_date) is the primary key of this table. This table shows the activity of players of some games. Each row is a record of a player who logged in and played a number of games (possibly 0) before logging out on someday using some device.</description>
+      <description>題目 Table: Activity +--------------+---------+ | Column Name | Type | +--------------+---------+ | player_id | int | | device_id | int | | event_date | date | | games_played | int | +--------------+---------+ (player_id, event_date) is the primary key of this table. This table shows the activity of players of some games. Each row is a record of a player who logged in and played a number of games (possibly</description>
     </item>
     
     <item>
@@ -391,8 +384,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 13:21:25 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/user-purchase-platform/</guid>
-      <description>題目 Table: Spending
-+-------------+---------+ | Column Name | Type | +-------------+---------+ | user_id | int | | spend_date | date | | platform | enum | | amount | int | +-------------+---------+ The table logs the history of the spending of users that make purchases from an online shopping website that has a desktop and a mobile application. (user_id, spend_date, platform) is the primary key of this table. The platform column is an ENUM type of (&amp;#39;desktop&amp;#39;, &amp;#39;mobile&amp;#39;).</description>
+      <description>題目 Table: Spending +-------------+---------+ | Column Name | Type | +-------------+---------+ | user_id | int | | spend_date | date | | platform | enum | | amount | int | +-------------+---------+ The table logs the history of the spending of users that make purchases from an online shopping website that has a desktop and a mobile application. (user_id, spend_date, platform) is the primary key of this table. The</description>
     </item>
     
     <item>
@@ -401,9 +393,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 12:27:16 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/market-analysis-ii/</guid>
-      <description>題目 Table: Users
-+----------------+---------+ | Column Name | Type | +----------------+---------+ | user_id | int | | join_date | date | | favorite_brand | varchar | +----------------+---------+ user_id is the primary key of this table. This table has the info of the users of an online shopping website where users can sell and buy items. Table: Orders
-+---------------+---------+ | Column Name | Type | +---------------+---------+ | order_id | int | | order_date | date | | item_id | int | | buyer_id | int | | seller_id | int | +---------------+---------+ order_id is the primary key of this table.</description>
+      <description>題目 Table: Users +----------------+---------+ | Column Name | Type | +----------------+---------+ | user_id | int | | join_date | date | | favorite_brand | varchar | +----------------+---------+ user_id is the primary key of this table. This table has the info of the users of an online shopping website where users can sell and buy items. Table: Orders +---------------+---------+ | Column Name | Type | +---------------+---------+ | order_id | int</description>
     </item>
     
     <item>
@@ -412,9 +402,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 09:28:54 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/tournament-winners/</guid>
-      <description>題目 Table: Players
-+-------------+-------+ | Column Name | Type | +-------------+-------+ | player_id | int | | group_id | int | +-------------+-------+ player_id is the primary key of this table. Each row of this table indicates the group of each player. Table: Matches
-+---------------+---------+ | Column Name | Type | +---------------+---------+ | match_id | int | | first_player | int | | second_player | int | | first_score | int | | second_score | int | +---------------+---------+ match_id is the primary key of this table.</description>
+      <description>題目 Table: Players +-------------+-------+ | Column Name | Type | +-------------+-------+ | player_id | int | | group_id | int | +-------------+-------+ player_id is the primary key of this table. Each row of this table indicates the group of each player. Table: Matches +---------------+---------+ | Column Name | Type | +---------------+---------+ | match_id | int | | first_player | int | | second_player | int | | first_score |</description>
     </item>
     
     <item>
@@ -423,9 +411,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 09:05:48 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/total-sales-amount-by-year/</guid>
-      <description>題目 Table: Product
-+---------------+---------+ | Column Name | Type | +---------------+---------+ | product_id | int | | product_name | varchar | +---------------+---------+ product_id is the primary key for this table. product_name is the name of the product. Table: Sales
-+---------------------+---------+ | Column Name | Type | +---------------------+---------+ | product_id | int | | period_start | date | | period_end | date | | average_daily_sales | int | +---------------------+---------+ product_id is the primary key for this table.</description>
+      <description>題目 Table: Product +---------------+---------+ | Column Name | Type | +---------------+---------+ | product_id | int | | product_name | varchar | +---------------+---------+ product_id is the primary key for this table. product_name is the name of the product. Table: Sales +---------------------+---------+ | Column Name | Type | +---------------------+---------+ | product_id | int | | period_start | date | | period_end | date | | average_daily_sales | int | +---------------------+---------+ product_id</description>
     </item>
     
     <item>
@@ -434,9 +420,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 08:37:04 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/sales-by-day-of-the-week/</guid>
-      <description>題目 Table: Orders
-+---------------+---------+ | Column Name | Type | +---------------+---------+ | order_id | int | | customer_id | int | | order_date | date | | item_id | varchar | | quantity | int | +---------------+---------+ (ordered_id, item_id) is the primary key for this table. This table contains information on the orders placed. order_date is the date item_id was ordered by the customer with id customer_id. Table: Items
-+---------------------+---------+ | Column Name | Type | +---------------------+---------+ | item_id | varchar | | item_name | varchar | | item_category | varchar | +---------------------+---------+ item_id is the primary key for this table.</description>
+      <description>題目 Table: Orders +---------------+---------+ | Column Name | Type | +---------------+---------+ | order_id | int | | customer_id | int | | order_date | date | | item_id | varchar | | quantity | int | +---------------+---------+ (ordered_id, item_id) is the primary key for this table. This table contains information on the orders placed. order_date is the date item_id was ordered by the customer with id customer_id. Table: Items</description>
     </item>
     
     <item>
@@ -445,8 +429,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Tue, 06 Dec 2022 05:39:34 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/first-and-last-call-on-the-same-day/</guid>
-      <description>題目 Table: Calls
-+--------------+----------+ | Column Name | Type | +--------------+----------+ | caller_id | int | | recipient_id | int | | call_time | datetime | +--------------+----------+ (caller_id, recipient_id, call_time) is the primary key for this table. Each row contains information about the time of a phone call between caller_id and recipient_id. Write an SQL query to report the IDs of the users whose first and last calls on any day were with the same person.</description>
+      <description>題目 Table: Calls +--------------+----------+ | Column Name | Type | +--------------+----------+ | caller_id | int | | recipient_id | int | | call_time | datetime | +--------------+----------+ (caller_id, recipient_id, call_time) is the primary key for this table. Each row contains information about the time of a phone call between caller_id and recipient_id. Write an SQL query to report the IDs of the users whose first and last calls on</description>
     </item>
     
     <item>
@@ -455,8 +438,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Mon, 05 Dec 2022 09:07:42 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-seniors-and-juniors-to-join-the-company/</guid>
-      <description>題目 Table: Candidates
-+-------------+------+ | Column Name | Type | +-------------+------+ | employee_id | int | | experience | enum | | salary | int | +-------------+------+ employee_id is the primary key column for this table. experience is an enum with one of the values (&amp;#39;Senior&amp;#39;, &amp;#39;Junior&amp;#39;). Each row of this table indicates the id of a candidate, their monthly salary, and their experience. A company wants to hire new employees.</description>
+      <description>題目 Table: Candidates +-------------+------+ | Column Name | Type | +-------------+------+ | employee_id | int | | experience | enum | | salary | int | +-------------+------+ employee_id is the primary key column for this table. experience is an enum with one of the values (&amp;#39;Senior&amp;#39;, &amp;#39;Junior&amp;#39;). Each row of this table indicates the id of a candidate, their monthly salary, and their experience. A company wants to hire</description>
     </item>
     
     <item>
@@ -465,8 +447,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Mon, 05 Dec 2022 08:34:19 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/the-number-of-passengers-in-each-bus-ii/</guid>
-      <description>題目 Table: Buses
-+--------------+------+ | Column Name | Type | +--------------+------+ | bus_id | int | | arrival_time | int | | capacity | int | +--------------+------+ bus_id is the primary key column for this table. Each row of this table contains information about the arrival time of a bus at the LeetCode station and its capacity (the number of empty seats it has). No two buses will arrive at the same time and all bus capacities will be positive integers.</description>
+      <description>題目 Table: Buses +--------------+------+ | Column Name | Type | +--------------+------+ | bus_id | int | | arrival_time | int | | capacity | int | +--------------+------+ bus_id is the primary key column for this table. Each row of this table contains information about the arrival time of a bus at the LeetCode station and its capacity (the number of empty seats it has). No two buses will arrive</description>
     </item>
     
     <item>
@@ -475,8 +456,7 @@ Write an SQL query to pivot the continent column in the Student table so that ea
       <pubDate>Mon, 05 Dec 2022 08:12:40 +0000</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/leetcode/database/dynamic-pivoting-of-a-table/</guid>
-      <description>題目 Table: Products
-+-------------+---------+ | Column Name | Type | +-------------+---------+ | product_id | int | | store | varchar | | price | int | +-------------+---------+ (product_id, store) is the primary key for this table. Each row of this table indicates the price of product_id in store. There will be at most 30 different stores in the table. price is the price of the product at this store. Important note: This problem targets those who have a good experience with SQL.</description>
+      <description>題目 Table: Products +-------------+---------+ | Column Name | Type | +-------------+---------+ | product_id | int | | store | varchar | | price | int | +-------------+---------+ (product_id, store) is the primary key for this table. Each row of this table indicates the price of product_id in store. There will be at most 30 different stores in the table. price is the price of the product at this store.</description>
     </item>
     
     <item>
