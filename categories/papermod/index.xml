@@ -16,7 +16,7 @@
       <pubDate>Mon, 09 Jan 2023 14:27:41 +0800</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/hugo/papermod/</guid>
-      <description>What is Hugo-PaperMod ? Hugo PaperMod is a theme based on hugo-paper. The goal of this project is to add more features and customization to the og theme. Hugo-PaperMod 使用 yml/yaml 格式提供所有示例，作者認為 yaml 的格式會比 toml 容易閱讀。 安裝方式 Hugo 官方建議採用 submodule 的</description>
+      <description>這篇文章整理了個人使用 PaperMod theme 的設定</description>
     </item>
     
   </channel>
