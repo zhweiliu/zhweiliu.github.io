@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 22:42:35 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 14:27:41 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo-PaperMod theme 設定</title>
+      <link>https://blog.zhengweiliu.com/posts/hugo/papermod/</link>
+      <pubDate>Mon, 09 Jan 2023 14:27:41 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/hugo/papermod/</guid>
+      <description>What is Hugo-PaperMod ? Hugo PaperMod is a theme based on hugo-paper. The goal of this project is to add more features and customization to the og theme. Hugo-PaperMod 使用 yml/yaml 格式提供所有示例，作者認為 yaml 的格式會比 toml 容易閱讀。 安裝方式 Hugo 官方建議採用 submodule 的</description>
+    </item>
+    
     <item>
       <title>GitHub Pages 設定 Custom Domain ( Go Daddy )</title>
       <link>https://blog.zhengweiliu.com/posts/hugo/custom_domain/</link>
