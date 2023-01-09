@@ -1,26 +1,19 @@
 baseURL: "https://blog.zhengweiliu.com/"
 title: ZhengWei Liu's blogs
-paginate: 5
+paginate: 10 # 首頁文章筆數
 theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-# googleAnalytics: UA-123-45
-
-
-paginate: 5 # 首頁文章筆數
 defaultContentLanguage: "zh-tw"
 enableGitInfo: true
 enableInlineShortcodes: true
 enableEmoji: true # allow Emoji
-enableRobotsTXT: true # allow crawler scraping to search engine
 hasCJKLanguage: true
 
-
-
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -67,7 +60,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "🏠Home"
+    text: "🏠 ZhengWei's Blog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 

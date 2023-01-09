@@ -9,13 +9,22 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 22:42:35 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 14:27:41 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>https://blog.zhengweiliu.com/categories/hugo/</link>
-      <pubDate>Thu, 05 Jan 2023 22:42:35 +0800</pubDate>
+      <pubDate>Mon, 09 Jan 2023 14:27:41 +0800</pubDate>
       
       <guid>https://blog.zhengweiliu.com/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaperMod</title>
+      <link>https://blog.zhengweiliu.com/categories/papermod/</link>
+      <pubDate>Mon, 09 Jan 2023 14:27:41 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/categories/papermod/</guid>
       <description></description>
     </item>
     
