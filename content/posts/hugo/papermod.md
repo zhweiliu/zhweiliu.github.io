@@ -4,8 +4,9 @@ date: 2023-01-09T14:27:41+08:00
 categories: ["Hugo", "PaperMod"]
 keywords: ["PaperMod", "theme"]
 summary: |
-  
+  這篇文章整理了個人使用 PaperMod theme 的設定
 ---
+*這篇文章整理了個人使用 PaperMod theme 的設定*
 
 ## What is Hugo-PaperMod ?
 
