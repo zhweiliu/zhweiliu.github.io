@@ -26,9 +26,9 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: ZhengWei, Liu
   # author: ["Me", "You"] # multiple authors
-  images: "/images/open_graph.png"
+  images: "/images/mountain.png"
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "Dec 31, 2022"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -103,7 +103,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    image: "/images/open_graph.png"
+    image: "/images/mountain.png"
     relative: false
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
