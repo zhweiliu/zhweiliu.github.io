@@ -102,6 +102,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
+    image: "/open_graph.png"
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
