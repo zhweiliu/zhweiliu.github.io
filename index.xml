@@ -9,7 +9,19 @@
       <link>https://blog.zhengweiliu.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 Jan 2023 14:27:41 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 23:29:09 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>借助 ChatGPT 來調整履歷</title>
+      <link>https://blog.zhengweiliu.com/posts/chatgpt/resume/</link>
+      <pubDate>Fri, 17 Feb 2023 23:29:09 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/chatgpt/resume/</guid>
+      <description>&lt;p&gt;透過 ChatGPT 輔助修改履歷的過程，我覺得在和 ChatGPT 溝通的過程其實挺順暢的，簡單扼要並清楚的告訴 ChatGPT 當前遭遇的問題，以及相關的背景設定與假設條件，通常都能獲得不錯的結果。&lt;/p&gt;
+&lt;p&gt;即使第一次輸出的結果並不符合我的期待，在明確告知 ChatGPT 後也能得到較為滿意的結果。&lt;/p&gt;
+&lt;p&gt;而唯一需要注意的一點，是 ChatGPT 告訴我他會執行下載檔案的行為，以便讀取檔案內容；未來若有相似需要 ChatGPT 的協助，則應該更加注意是否已避開提供機敏性的資料。&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Hugo-PaperMod theme 設定</title>
       <link>https://blog.zhengweiliu.com/posts/hugo/papermod/</link>
