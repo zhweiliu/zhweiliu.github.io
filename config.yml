@@ -26,7 +26,8 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: ZhengWei, Liu
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: "/images/open_graph.png"
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
