@@ -26,8 +26,8 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: ZhengWei, Liu
   # author: ["Me", "You"] # multiple authors
-  images: ["mountain.png"]
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["mountain-cover.png"]
+  
   DateFormat: "Dec 31, 2022"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -102,10 +102,10 @@ params:
     yandex:
       SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+  # cover:
+  #   hidden: false # hide everywhere but not in structured data
+  #   hiddenInList: false # hide on list pages and home
+  #   hiddenInSingle: false # hide on single page
 
   # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
