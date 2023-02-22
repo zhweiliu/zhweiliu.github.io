@@ -4,7 +4,7 @@ date: 2023-02-22T20:41:43+08:00
 categories: ["Design Patterns"]
 keywords: ["Design Patterns", "Observer Pattern", "設計模式"]
 summary: |
-  
+  在 Observer Pattern 中，將會明確定義出兩種角色 : 1. IObservable : 被觀察者，如上述的 Server (A類), 2. IObserver : 觀察者，如上述的 Client (B類) 。讓 Server 主動推送(Push)狀態變更的信號給 Client，可以有效的改善輪詢帶來的缺點。
 ---
 
 利用 [Observer Pattern - Design Patterns](https://www.youtube.com/watch?v=_BpmfnqjgzQ&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=2) 學習設計模式 **Observer Pattern**，並利用 Python 撰寫 sample code.
