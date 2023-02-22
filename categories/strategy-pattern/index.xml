@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Strategy Pattern on ZhengWei Liu&#39;s blogs</title>
+    <link>https://blog.zhengweiliu.com/categories/strategy-pattern/</link>
+    <description>Recent content in Strategy Pattern on ZhengWei Liu&#39;s blogs</description>
+    <image>
+      <url>https://blog.zhengweiliu.com/mountain-cover.png</url>
+      <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Feb 2023 11:32:13 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/strategy-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Patterns - Strategy Pattern</title>
+      <link>https://blog.zhengweiliu.com/posts/design-pattern/strategy-pattern/</link>
+      <pubDate>Wed, 22 Feb 2023 11:32:13 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/design-pattern/strategy-pattern/</guid>
+      <description>相對於繼承(inherit)， Strategy Pattern 則是組合優於繼承(composition over inheritance)的精神。假設有一個薪水計算器要給兩個不同的客戶使用 : 速食業客戶以每小時時薪和工時來核算薪水，外送業客戶以每單獎金和總外送單數來核算薪水。薪水計算器需要提供給不同業者不同核算薪水的方法， Strategy Pattern 則提供了一種方式，使得不同業者可以使用同一個計算器，並選擇不同的核算方式，來獲取薪水計算的結果。</description>
+    </item>
+    
+  </channel>
+</rss>
