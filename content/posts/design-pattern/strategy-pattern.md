@@ -1,7 +1,7 @@
 ---
 title: "Design Patterns - Strategy Pattern"
 date: 2023-02-22T11:32:13+08:00
-categories: ["Design Patterns", "Strategy Pattern"]
+categories: ["Design Patterns"]
 keywords: ["Design Patterns", "Strategy Pattern", "設計模式"]
 summary: |
   相對於繼承(inherit)， Strategy Pattern 則是組合優於繼承(composition over inheritance)的精神。假設有一個薪水計算器要給兩個不同的客戶使用 : 速食業客戶以每小時時薪和工時來核算薪水，外送業客戶以每單獎金和總外送單數來核算薪水。薪水計算器需要提供給不同業者不同核算薪水的方法， Strategy Pattern 則提供了一種方式，使得不同業者可以使用同一個計算器，並選擇不同的核算方式，來獲取薪水計算的結果。
