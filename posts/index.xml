@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Feb 2023 11:32:13 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 20:41:43 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Patterns - Observer Pattern</title>
+      <link>https://blog.zhengweiliu.com/posts/design-pattern/observer-pattern/</link>
+      <pubDate>Wed, 22 Feb 2023 20:41:43 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/design-pattern/observer-pattern/</guid>
+      <description>利用 Observer Pattern - Design Patterns 學習設計模式 Observer Pattern，並利用 Python 撰寫 sample code. Observer Pattern Definition 當有 A 、 B 兩類實體，其中實體 B 類實體為了某些原因，需要得知 A 類的某些狀態是</description>
+    </item>
+    
     <item>
       <title>Design Patterns - Strategy Pattern</title>
       <link>https://blog.zhengweiliu.com/posts/design-pattern/strategy-pattern/</link>
