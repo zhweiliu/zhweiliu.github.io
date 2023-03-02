@@ -1,5 +1,5 @@
 ---
-title: "Decorator Pattern"
+title: "Design Patterns - Decorator Pattern"
 date: 2023-03-01T22:40:29+08:00
 categories: ["Design Patterns"]
 keywords: ["Design Patterns", "Decorator Pattern", "設計模式"]
@@ -53,8 +53,8 @@ Decorator Pattern 則透過包裹 (wrapper) 方式來達成組合目的。
 
 依據先前的小節說明整理出幾點資訊
 - 需要定義出 **元件 (component)** 和 **附加描述 (Decorator)**
-- 執行 behavior 是由外層 decorate 到內層 component ， behavior 的 signature 需統一，可判斷**附加描述是元件的一種(is-a)**
-- 附加描述可以疊加、 outer decorator 需要呼叫 inner decorator ，可判斷**附加描述應具備 inner decorator 或 component**
+- 執行 behavior 是由外層 decorate 到內層 component ， behavior 的 signature 需統一，可判斷**附加描述是元件的一種** (is-a)
+- 附加描述可以疊加、 outer decorator 需要呼叫 inner decorator ，可判斷**附加描述應具備 inner decorator 或 component** (has-a)
 
 再依據上述三點描述，以廣告文案投放至不同渠道的議題為例，用 Decorator Pattern 方式設計類別之間的關係，如下圖所示
 
