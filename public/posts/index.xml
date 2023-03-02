@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Feb 2023 20:41:43 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 22:40:29 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decorator Pattern</title>
+      <link>https://blog.zhengweiliu.com/posts/design-pattern/decorator-pattern/</link>
+      <pubDate>Wed, 01 Mar 2023 22:40:29 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/design-pattern/decorator-pattern/</guid>
+      <description>Decorator Pattern 透過修改已定義的行為，以擴展或變更其功能，而不需透過繼承和覆寫。 使用組合 (composition) 替代繼承 (inherit)，可動態地添加或移除行為，且不需要在繼承關係中堆疊子類別。 Decorator模式更具靈活性和可維護性，因此被廣泛地應用於軟體開發領域中。</description>
+    </item>
+    
     <item>
       <title>Design Patterns - Observer Pattern</title>
       <link>https://blog.zhengweiliu.com/posts/design-pattern/observer-pattern/</link>
