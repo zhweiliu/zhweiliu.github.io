@@ -16,7 +16,7 @@
       <pubDate>Wed, 08 Mar 2023 21:15:20 +0800</pubDate>
       
       <guid>https://blog.zhengweiliu.com/posts/design-pattern/factory-method-pattern/</guid>
-      <description>利用 Factory Method Pattern - Design Patterns 學習設計模式 Factory Method Pattern，並利用 Python 撰寫 sample code. 摘要 Factory Method Pattern 簡明扼要的說，就是定義 製作者(Creator) 和 產品(Produc</description>
+      <description>Factory Method Pattern 簡明扼要的說，就是定義製作者(Creator)和產品(Product)間的關係。我們並不需要在意具體是哪個製作者生產產品，也不需要在意製作者用何種方式生產特定產品，因為我們關注的部分為，是否可拿到特定產品。</description>
     </item>
     
     <item>
