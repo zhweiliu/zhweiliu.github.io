@@ -4,7 +4,7 @@ date: 2023-03-08T21:15:20+08:00
 categories: ["Design Patterns"]
 keywords: ["Design Patterns", "Factory Method Pattern", "設計模式"]
 summary: |
-  
+  Factory Method Pattern 簡明扼要的說，就是定義製作者(Creator)和產品(Product)間的關係。我們並不需要在意具體是哪個製作者生產產品，也不需要在意製作者用何種方式生產特定產品，因為我們關注的部分為，是否可拿到特定產品。
 ---
 
 利用 [Factory Method Pattern - Design Patterns](https://www.youtube.com/watch?v=EcFVTgRHJLM&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=4) 學習設計模式 **Factory Method Pattern**，並利用 Python 撰寫 sample code.
