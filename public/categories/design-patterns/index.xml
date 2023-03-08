@@ -9,9 +9,18 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Mar 2023 22:40:29 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 21:15:20 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/design-patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Decorator Pattern</title>
+      <title>Design Patterns - Factory Method Pattern</title>
+      <link>https://blog.zhengweiliu.com/posts/design-pattern/factory-method-pattern/</link>
+      <pubDate>Wed, 08 Mar 2023 21:15:20 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/design-pattern/factory-method-pattern/</guid>
+      <description>利用 Factory Method Pattern - Design Patterns 學習設計模式 Factory Method Pattern，並利用 Python 撰寫 sample code. 摘要 Factory Method Pattern 簡明扼要的說，就是定義 製作者(Creator) 和 產品(Produc</description>
+    </item>
+    
+    <item>
+      <title>Design Patterns - Decorator Pattern</title>
       <link>https://blog.zhengweiliu.com/posts/design-pattern/decorator-pattern/</link>
       <pubDate>Wed, 01 Mar 2023 22:40:29 +0800</pubDate>
       

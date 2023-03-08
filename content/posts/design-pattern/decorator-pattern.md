@@ -10,7 +10,7 @@ summary: |
 ---
 利用 [Decorator Pattern - Design Patterns](https://www.youtube.com/watch?v=GCraGHx6gso&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=3) 學習設計模式 **Decorator Pattern**，並利用 Python 撰寫 sample code.
 
-## Decorator Pattern
+## 摘要
 Decorator Pattern 透過修改已定義的行為，以擴展或變更其功能，而不需透過繼承和覆寫。
 
 使用組合 (composition) 替代繼承 (inherit)，可動態地添加或移除行為，且不需要在繼承關係中堆疊子類別。

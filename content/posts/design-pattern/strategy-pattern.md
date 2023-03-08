@@ -9,7 +9,7 @@ summary: |
 
 利用 [Strategy Pattern - Design Patterns](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) 學習設計模式 **Strategy Pattern**，並利用 Python 撰寫 sample code.
 
-## Strategy Pattern Definition
+## 摘要
 相對於**繼承(inherit)**， Strategy Pattern 則是**組合優於繼承(composition over inheritance)** 的精神。
 
 假設有一個薪水計算器要給兩個不同的客戶使用 : 速食業客戶以每小時時薪和工時來核算薪水，外送業客戶以每單獎金和總外送單數來核算薪水。
