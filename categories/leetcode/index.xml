@@ -9,6 +9,7 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
     <lastBuildDate>Sat, 24 Dec 2022 15:05:27 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[leetcode][Python][Concurrency][Medium] 1226. The Dining Philosophers</title>

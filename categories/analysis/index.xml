@@ -9,6 +9,7 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
     <lastBuildDate>Mon, 27 Dec 2021 14:13:51 +0000</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/categories/analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GCP Billing Analysis</title>
