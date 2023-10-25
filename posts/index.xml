@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 11 Mar 2023 21:27:46 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Oct 2023 22:03:42 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac M2 K3s</title>
+      <link>https://blog.zhengweiliu.com/posts/devops/mac-m2-k3s/</link>
+      <pubDate>Wed, 25 Oct 2023 22:03:42 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/devops/mac-m2-k3s/</guid>
+      <description>K3s是輕量化的 Kubernetes，由於先前我都是使用Docker Desktop Kubernetes，因為 Docker Desktop Kubernetes 是 single-node Kubernetes or Docker Swarm cluster，在local 部署 Pod 時也無法實際測試 affinity 功能，因此就想玩玩看 K3s 。</description>
+    </item>
+    
     <item>
       <title>Design Patterns - Abstract Factory Pattern</title>
       <link>https://blog.zhengweiliu.com/posts/design-pattern/abstract-factory-pattern/</link>
