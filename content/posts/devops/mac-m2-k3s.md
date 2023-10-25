@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Mac M2 K3s"
+title: "Mac M2 安裝 K3s"
 date: 2023-10-25T22:03:42+08:00
 categories: ["DevOps"]
 keywords: ["DevOps", "K3s"]
