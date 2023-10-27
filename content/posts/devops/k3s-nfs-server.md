@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "透過 NFS Server 在 K3s cluster 新增 RWO Storage Class"
 date: 2023-10-26T23:42:35+08:00
 categories: ["devops"]
