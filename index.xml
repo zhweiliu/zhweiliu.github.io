@@ -12,7 +12,7 @@
     <language>zh-tw</language>
     <lastBuildDate>Thu, 26 Oct 2023 23:42:35 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>透過 NFS Server 在 K3s cluster 新增 RWO Storage Class</title>
+      <title>透過 NFS Server 在 K3s cluster 新增 Storage Class</title>
       <link>https://blog.zhengweiliu.com/posts/devops/k3s-nfs-server/</link>
       <pubDate>Thu, 26 Oct 2023 23:42:35 +0800</pubDate>
       
