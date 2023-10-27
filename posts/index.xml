@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 25 Oct 2023 22:03:42 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Oct 2023 23:42:35 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>透過 NFS Server 在 K3s cluster 新增 RWO Storage Class</title>
+      <link>https://blog.zhengweiliu.com/posts/devops/k3s-nfs-server/</link>
+      <pubDate>Thu, 26 Oct 2023 23:42:35 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/devops/k3s-nfs-server/</guid>
+      <description>之前讀過 Shawn Ho 大大的在GKE上使用ReadWrite Many的Disk ， 突然意識到 multipass 產生的 Ubuntu VM ，不就是現成的 Filesystem ! 只要在 Ubuntu 上安裝了 NFS server ， 並在其他 VM 上安裝 NFS client ， 那應該就能新增使用 NFS 的 Storage Class 了！查了一些資料後發現可行，於是就手動實做看看。</description>
+    </item>
+    
     <item>
       <title>Mac M2 安裝 K3s</title>
       <link>https://blog.zhengweiliu.com/posts/devops/mac-m2-k3s/</link>

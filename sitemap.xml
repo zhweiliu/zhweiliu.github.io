@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.zhengweiliu.com/categories/</loc>
-    <lastmod>2023-10-25T23:06:57+08:00</lastmod>
+    <lastmod>2023-10-27T21:31:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.zhengweiliu.com/categories/devops/</loc>
-    <lastmod>2023-10-25T23:06:57+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.zhengweiliu.com/posts/devops/mac-m2-k3s/</loc>
-    <lastmod>2023-10-25T23:06:57+08:00</lastmod>
+    <lastmod>2023-10-27T21:31:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.zhengweiliu.com/posts/</loc>
-    <lastmod>2023-10-25T23:06:57+08:00</lastmod>
+    <lastmod>2023-10-27T21:31:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.zhengweiliu.com/</loc>
+    <lastmod>2023-10-27T21:31:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zhengweiliu.com/posts/devops/k3s-nfs-server/</loc>
+    <lastmod>2023-10-27T21:31:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zhengweiliu.com/posts/devops/mac-m2-k3s/</loc>
     <lastmod>2023-10-25T23:06:57+08:00</lastmod>
   </url><url>
     <loc>https://blog.zhengweiliu.com/posts/design-pattern/abstract-factory-pattern/</loc>
