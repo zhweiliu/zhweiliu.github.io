@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Oct 2023 23:42:35 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 00:30:21 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K3s 設定 etcd</title>
+      <link>https://blog.zhengweiliu.com/posts/devops/k3s-etcd/</link>
+      <pubDate>Sun, 29 Oct 2023 00:30:21 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/devops/k3s-etcd/</guid>
+      <description>這篇文章主要記錄 K3s cluster 設定 etcd 的方法 先前在 &amp;ldquo;Mac M2 安裝 K3s&amp;rdquo; 介紹如何快速安裝並啟動一個 K3s cluster 。 然而最近發現 control-plane node 並沒有 etcd 的角色。 對照K3s 文件 - Cluster Datas</description>
+    </item>
+    
     <item>
       <title>透過 NFS Server 在 K3s cluster 新增 Storage Class</title>
       <link>https://blog.zhengweiliu.com/posts/devops/k3s-nfs-server/</link>
