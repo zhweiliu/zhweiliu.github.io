@@ -5,7 +5,8 @@ date: 2023-10-29T00:30:21+08:00
 categories: ["devops"]
 keywords: ["DevOps", "K3s"]
 summary: |
-  
+  先前在 "Mac M2 安裝 K3s" 介紹如何快速安裝並啟動一個 K3s cluster，但發現 `control-plane` node 並沒有 `etcd` 的角色，查詢之後發現需要進行額外的設定，且可以採用 K3s 提供的 embedded etcd，或是自己建立 etcd 服務後供 cluster 使用。 就把兩種方式都玩了一遍:
+  1.對既有 cluster 設定使用 embedded etcd ，以及2.自己建立 etcd 並在新建立的 cluster 中使用。
 ---
 *這篇文章主要記錄 K3s cluster 設定 etcd 的方法*
 
