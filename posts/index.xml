@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 29 Oct 2023 00:30:21 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Dec 2023 17:56:49 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K3d - K3s 輕量化 wrapper</title>
+      <link>https://blog.zhengweiliu.com/posts/devops/k3d-install/</link>
+      <pubDate>Sat, 09 Dec 2023 17:56:49 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/devops/k3d-install/</guid>
+      <description>K3d 是 K3s 的輕量化 wrapper ， 讓 K3s 得以 Docker 上執行。</description>
+    </item>
+    
     <item>
       <title>K3s 設定 etcd</title>
       <link>https://blog.zhengweiliu.com/posts/devops/k3s-etcd/</link>
@@ -575,8 +584,7 @@ Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)�
 &lt;li&gt;整體而言，只有 0.7% 的首次訪問者，會在後續訪問時產生購買行為&lt;/li&gt;
 &lt;li&gt;瞄準前 6% 的第一次訪問者名單，會使營銷投資回報率提高 9 倍
 因此，若是能夠在得到模型預測的結果後，依據營銷策略進行即時的投放處理，包含但不限於: EDM廣告、Coupon折價券或是限定綑綁折扣等等，建構起一個自動化營銷的方法；這也是一種 &lt;strong&gt;Data Driven&lt;/strong&gt; 的方法。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -610,8 +618,7 @@ Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)�
 &lt;li&gt;&lt;a href=&#34;#dee1&#34;&gt;&lt;code&gt;Google Kubernetes Engine: Ingress &amp;amp; Service&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#fa5e&#34;&gt;&lt;code&gt;ASGI 與FastAPI&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#b458&#34;&gt;&lt;code&gt;Dockerize &amp;amp; Deployment&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -625,8 +632,7 @@ Q3. 對於在 K8s 上建置正式環境 (Product) 和測試環境 (Development)�
 &lt;li&gt;&lt;a href=&#34;#a63a&#34;&gt;用 &lt;code&gt;Airflow DAG&lt;/code&gt; (Directed Acyclic Graph) 替代 &lt;code&gt;Cloud Function&lt;/code&gt; 環節以處理&lt;code&gt;靜態資料源&lt;/code&gt;的方法&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#7077&#34;&gt;&lt;code&gt;Airflow GCP Operators&lt;/code&gt; 使用&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#0481&#34;&gt;在 &lt;code&gt;DAG 中平行處理(parallel processing)&lt;/code&gt;的方式&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>

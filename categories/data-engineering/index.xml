@@ -23,8 +23,7 @@
 &lt;li&gt;&lt;a href=&#34;#dee1&#34;&gt;&lt;code&gt;Google Kubernetes Engine: Ingress &amp;amp; Service&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#fa5e&#34;&gt;&lt;code&gt;ASGI 與FastAPI&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#b458&#34;&gt;&lt;code&gt;Dockerize &amp;amp; Deployment&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@
 &lt;li&gt;&lt;a href=&#34;#a63a&#34;&gt;用 &lt;code&gt;Airflow DAG&lt;/code&gt; (Directed Acyclic Graph) 替代 &lt;code&gt;Cloud Function&lt;/code&gt; 環節以處理&lt;code&gt;靜態資料源&lt;/code&gt;的方法&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#7077&#34;&gt;&lt;code&gt;Airflow GCP Operators&lt;/code&gt; 使用&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#0481&#34;&gt;在 &lt;code&gt;DAG 中平行處理(parallel processing)&lt;/code&gt;的方式&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
