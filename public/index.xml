@@ -9,7 +9,16 @@
       <link>https://blog.zhengweiliu.com/mountain-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Oct 2023 00:30:21 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Dec 2023 17:56:49 +0800</lastBuildDate><atom:link href="https://blog.zhengweiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K3d - K3s 輕量化 wrapper</title>
+      <link>https://blog.zhengweiliu.com/posts/devops/k3d-install/</link>
+      <pubDate>Sat, 09 Dec 2023 17:56:49 +0800</pubDate>
+      
+      <guid>https://blog.zhengweiliu.com/posts/devops/k3d-install/</guid>
+      <description>K3d 是 K3s 的輕量化 wrapper ， 讓 K3s 得以 Docker 上執行。</description>
+    </item>
+    
     <item>
       <title>K3s 設定 etcd</title>
       <link>https://blog.zhengweiliu.com/posts/devops/k3s-etcd/</link>
